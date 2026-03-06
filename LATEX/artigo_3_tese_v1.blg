@@ -7,45 +7,45 @@ Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Warning--empty pages in Liniger2019
-You've used 53 entries,
+You've used 77 entries,
             2990 wiz_defined-function locations,
-            997 strings with 14394 characters,
-and the built_in function-call counts, 31519 in all, are:
-= -- 2305
-> -- 1098
-< -- 42
-+ -- 451
-- -- 372
-* -- 3300
-:= -- 4586
-add.period$ -- 176
-call.type$ -- 53
-change.case$ -- 375
-chr.to.int$ -- 53
-cite$ -- 54
-duplicate$ -- 2484
-empty$ -- 2529
-format.name$ -- 511
-if$ -- 5895
+            1170 strings with 19543 characters,
+and the built_in function-call counts, 47684 in all, are:
+= -- 3568
+> -- 1698
+< -- 57
++ -- 686
+- -- 579
+* -- 5085
+:= -- 6935
+add.period$ -- 269
+call.type$ -- 77
+change.case$ -- 560
+chr.to.int$ -- 77
+cite$ -- 78
+duplicate$ -- 3672
+empty$ -- 3734
+format.name$ -- 788
+if$ -- 8901
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 494
-newline$ -- 297
-num.names$ -- 212
-pop$ -- 965
+missing$ -- 730
+newline$ -- 438
+num.names$ -- 308
+pop$ -- 1344
 preamble$ -- 1
-purify$ -- 336
+purify$ -- 499
 quote$ -- 0
-skip$ -- 746
+skip$ -- 1092
 stack$ -- 0
-substring$ -- 1125
-swap$ -- 1678
+substring$ -- 1884
+swap$ -- 2550
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 405
+type$ -- 612
 warning$ -- 1
-while$ -- 204
+while$ -- 314
 width$ -- 0
-write$ -- 769
+write$ -- 1145
 (There was 1 warning)

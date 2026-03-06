@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{77}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -18,12 +18,29 @@
 \newblock \bibinfo{publisher}{Editora da Universidade Estadual do Amazonas},
   \bibinfo{address}{Manaus}.
 %Type = Article
+\bibitem[{Balogun and Kalusopa(2021)}]{Balogun2021}
+\bibinfo{author}{Balogun, T.}, \bibinfo{author}{Kalusopa, T.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Digital preservation of indigenous knowledge systems:
+  a framework for {South Africa}}.
+\newblock \bibinfo{journal}{Records Management Journal} \bibinfo{volume}{31},
+  \bibinfo{pages}{304--321}.
+\newblock \DOIprefix\doi{10.1108/RMJ-12-2020-0042}.
+%Type = Article
 \bibitem[{Barney(1991)}]{Barney1991}
 \bibinfo{author}{Barney, J.}, \bibinfo{year}{1991}.
 \newblock \bibinfo{title}{Firm resources and sustained competitive advantage}.
 \newblock \bibinfo{journal}{Journal of Management} \bibinfo{volume}{17},
   \bibinfo{pages}{99--120}.
 \newblock \DOIprefix\doi{10.1177/014920639101700108}.
+%Type = Article
+\bibitem[{Bavikatte and Robinson(2011)}]{BavikatteRobinson2011}
+\bibinfo{author}{Bavikatte, K.S.}, \bibinfo{author}{Robinson, D.F.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Towards a people's history of the law: biocultural
+  jurisprudence and the {Nagoya Protocol} on access and benefit sharing}.
+\newblock \bibinfo{journal}{Law, Environment and Development Journal}
+  \bibinfo{volume}{7}, \bibinfo{pages}{35}.
 %Type = Article
 \bibitem[{Beaton et~al.(2000)Beaton, Bombardier, Guillemin and
   Ferraz}]{Beaton2000}
@@ -44,12 +61,42 @@
 \newblock \bibinfo{journal}{World Development} \bibinfo{volume}{98},
   \bibinfo{pages}{45--57}.
 \newblock \DOIprefix\doi{10.1016/j.worlddev.2015.05.004}.
+%Type = Article
+\bibitem[{Berkes(2004)}]{Berkes2004}
+\bibinfo{author}{Berkes, F.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Rethinking community-based conservation}.
+\newblock \bibinfo{journal}{Conservation Biology} \bibinfo{volume}{18},
+  \bibinfo{pages}{621--630}.
+\newblock \DOIprefix\doi{10.1111/j.1523-1739.2004.00077.x}.
+%Type = Article
+\bibitem[{Berkes(2007)}]{Berkes2007}
+\bibinfo{author}{Berkes, F.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Community-based conservation in a globalized world}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{104}, \bibinfo{pages}{15188--15193}.
+\newblock \DOIprefix\doi{10.1073/pnas.0702098104}.
+%Type = Book
+\bibitem[{Berkes(2012)}]{Berkes2012}
+\bibinfo{author}{Berkes, F.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Sacred Ecology: Traditional Ecological Knowledge and
+  Resource Management}.
+\newblock \bibinfo{edition}{3} ed., \bibinfo{publisher}{Routledge}.
+\newblock \DOIprefix\doi{10.4324/9780203123843}.
 %Type = Book
 \bibitem[{Berkes(2017)}]{Berkes2017}
 \bibinfo{author}{Berkes, F.}, \bibinfo{year}{2017}.
 \newblock \bibinfo{title}{Sacred Ecology}.
 \newblock \bibinfo{edition}{4} ed., \bibinfo{publisher}{Routledge},
   \bibinfo{address}{New York}.
+%Type = Article
+\bibitem[{Berkes and Turner(2006)}]{BerkesTurner2006}
+\bibinfo{author}{Berkes, F.}, \bibinfo{author}{Turner, N.J.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Knowledge, learning and the evolution of conservation
+  practice for social-ecological system resilience}.
+\newblock \bibinfo{journal}{Human Ecology} \bibinfo{volume}{34},
+  \bibinfo{pages}{479--494}.
+\newblock \DOIprefix\doi{10.1007/s10745-006-9008-2}.
 %Type = Article
 \bibitem[{Braun and Clarke(2006)}]{Braun2006}
 \bibinfo{author}{Braun, V.}, \bibinfo{author}{Clarke, V.},
@@ -58,6 +105,15 @@
 \newblock \bibinfo{journal}{Qualitative Research in Psychology}
   \bibinfo{volume}{3}, \bibinfo{pages}{77--101}.
 \newblock \DOIprefix\doi{10.1191/1478088706qp063oa}.
+%Type = Article
+\bibitem[{C{\'a}mara-Leret and Bascompte(2021)}]{CamaraLeret2021}
+\bibinfo{author}{C{\'a}mara-Leret, R.}, \bibinfo{author}{Bascompte, J.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Language extinction triggers the loss of unique
+  medicinal knowledge}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{118}, \bibinfo{pages}{e2103683118}.
+\newblock \DOIprefix\doi{10.1073/pnas.2103683118}.
 %Type = Article
 \bibitem[{Cohen and Levinthal(1990)}]{CohenLevinthal1990}
 \bibinfo{author}{Cohen, W.M.}, \bibinfo{author}{Levinthal, D.A.},
@@ -83,6 +139,15 @@
 \newblock \bibinfo{journal}{Nature} \bibinfo{volume}{387},
   \bibinfo{pages}{253--260}.
 \newblock \DOIprefix\doi{10.1038/387253a0}.
+%Type = Article
+\bibitem[{Cottier and Panizzon(2004)}]{Cottier2004}
+\bibinfo{author}{Cottier, T.}, \bibinfo{author}{Panizzon, M.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Legal perspectives on traditional knowledge: the case
+  for intellectual property protection}.
+\newblock \bibinfo{journal}{Journal of International Economic Law}
+  \bibinfo{volume}{7}, \bibinfo{pages}{371--399}.
+\newblock \DOIprefix\doi{10.1093/jiel/7.2.371}.
 %Type = Book
 \bibitem[{Creswell and Creswell(2018)}]{Creswell2018}
 \bibinfo{author}{Creswell, J.W.}, \bibinfo{author}{Creswell, J.D.},
@@ -108,6 +173,13 @@
 \newblock \bibinfo{publisher}{Harvard Business School Press},
   \bibinfo{address}{Boston}.
 %Type = Book
+\bibitem[{Dutfield(2004)}]{Dutfield2004}
+\bibinfo{author}{Dutfield, G.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Intellectual Property, Biogenetic Resources and
+  Traditional Knowledge}.
+\newblock \bibinfo{publisher}{Earthscan}, \bibinfo{address}{London}.
+\newblock \DOIprefix\doi{10.4324/9781849770859}.
+%Type = Book
 \bibitem[{Edvinsson and Malone(1997)}]{Edvinsson1997}
 \bibinfo{author}{Edvinsson, L.}, \bibinfo{author}{Malone, M.S.},
   \bibinfo{year}{1997}.
@@ -122,12 +194,33 @@
   Participatory Action-Research}.
 \newblock \bibinfo{publisher}{Apex Press}, \bibinfo{address}{New York}.
 %Type = Article
+\bibitem[{Fern{\'a}ndez-Llamazares et~al.(2021)Fern{\'a}ndez-Llamazares,
+  Lepofsky, Lertzman, Armstrong, Brondizio, Gavin, Lyver, Nicholas, Reo,
+  Reyes-Garc{\'i}a et~al.}]{FernandezLlamazares2021}
+\bibinfo{author}{Fern{\'a}ndez-Llamazares, {\'A}.}, \bibinfo{author}{Lepofsky,
+  D.}, \bibinfo{author}{Lertzman, K.}, \bibinfo{author}{Armstrong, C.G.},
+  \bibinfo{author}{Brondizio, E.S.}, \bibinfo{author}{Gavin, M.C.},
+  \bibinfo{author}{Lyver, P.O.}, \bibinfo{author}{Nicholas, G.P.},
+  \bibinfo{author}{Reo, N.J.}, \bibinfo{author}{Reyes-Garc{\'i}a, V.}, et~al.,
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Scientists' warning to humanity on threats to
+  {Indigenous} and local knowledge systems}.
+\newblock \bibinfo{journal}{Journal of Ethnobiology} \bibinfo{volume}{41},
+  \bibinfo{pages}{144--169}.
+\newblock \DOIprefix\doi{10.2993/0278-0771-41.2.144}.
+%Type = Article
 \bibitem[{Fleiss(1971)}]{Fleiss1971}
 \bibinfo{author}{Fleiss, J.L.}, \bibinfo{year}{1971}.
 \newblock \bibinfo{title}{Measuring nominal scale agreement among many raters}.
 \newblock \bibinfo{journal}{Psychological Bulletin} \bibinfo{volume}{76},
   \bibinfo{pages}{378--382}.
 \newblock \DOIprefix\doi{10.1037/h0031619}.
+%Type = Article
+\bibitem[{Folke(2004)}]{Folke2004}
+\bibinfo{author}{Folke, C.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Traditional knowledge in social--ecological systems}.
+\newblock \bibinfo{journal}{Ecology and Society} \bibinfo{volume}{9},
+  \bibinfo{pages}{7}.
 %Type = Article
 \bibitem[{Folke et~al.(2010)Folke, Carpenter, Walker, Scheffer, Chapin and
   Rockstr{\"o}m}]{Folke2010}
@@ -139,6 +232,13 @@
   adaptability and transformability}.
 \newblock \bibinfo{journal}{Ecology and Society} \bibinfo{volume}{15},
   \bibinfo{pages}{20}.
+%Type = Article
+\bibitem[{Gepts(2023)}]{Gepts2023}
+\bibinfo{author}{Gepts, P.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Biocultural diversity and crop improvement}.
+\newblock \bibinfo{journal}{Current Opinion in Plant Biology}
+  \bibinfo{volume}{71}, \bibinfo{pages}{102299}.
+\newblock \DOIprefix\doi{10.1016/j.pbi.2022.102299}.
 %Type = Book
 \bibitem[{Glaser and Strauss(1967)}]{Glaser1967}
 \bibinfo{author}{Glaser, B.G.}, \bibinfo{author}{Strauss, A.L.},
@@ -146,6 +246,16 @@
 \newblock \bibinfo{title}{The Discovery of Grounded Theory: Strategies for
   Qualitative Research}.
 \newblock \bibinfo{publisher}{Aldine}, \bibinfo{address}{Chicago}.
+%Type = Article
+\bibitem[{Gruberg et~al.(2022)Gruberg, Meinhold and
+  Reyes-Garc{\'i}a}]{Gruberg2022}
+\bibinfo{author}{Gruberg, H.}, \bibinfo{author}{Meinhold, K.},
+  \bibinfo{author}{Reyes-Garc{\'i}a, V.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Traditional ecological knowledge erosion among the
+  {Tsimane'}}.
+\newblock \bibinfo{journal}{Human Ecology} \bibinfo{volume}{50},
+  \bibinfo{pages}{1053--1066}.
+\newblock \DOIprefix\doi{10.1007/s10745-022-00375-9}.
 %Type = Article
 \bibitem[{Guillemin et~al.(1993)Guillemin, Bombardier and
   Beaton}]{Guillemin1993}
@@ -156,6 +266,15 @@
 \newblock \bibinfo{journal}{Journal of Clinical Epidemiology}
   \bibinfo{volume}{46}, \bibinfo{pages}{1417--1432}.
 \newblock \DOIprefix\doi{10.1016/0895-4356(93)90142-N}.
+%Type = Article
+\bibitem[{Hedges and Kipila(2020)}]{HedgesKipila2020}
+\bibinfo{author}{Hedges, S.}, \bibinfo{author}{Kipila, C.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Intergenerational erosion of traditional ecological
+  knowledge and its implications for {Maasai} rangeland management}.
+\newblock \bibinfo{journal}{Journal of Ethnobiology} \bibinfo{volume}{40},
+  \bibinfo{pages}{535--551}.
+\newblock \DOIprefix\doi{10.2993/0278-0771-40.4.535}.
 %Type = Article
 \bibitem[{Herdman et~al.(1999)Herdman, Fox-Rushby and Badia}]{Herdman1999}
 \bibinfo{author}{Herdman, M.}, \bibinfo{author}{Fox-Rushby, J.},
@@ -230,6 +349,14 @@
 \newblock \bibinfo{publisher}{Smithsonian Institution Press},
   \bibinfo{address}{Washington, DC}.
 %Type = Article
+\bibitem[{Maina(2012)}]{Maina2012}
+\bibinfo{author}{Maina, C.K.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Traditional knowledge management and preservation:
+  intersections with {Library} and {Information Science}}.
+\newblock \bibinfo{journal}{International Information and Library Review}
+  \bibinfo{volume}{44}, \bibinfo{pages}{13--27}.
+\newblock \DOIprefix\doi{10.1016/j.iilr.2012.01.001}.
+%Type = Article
 \bibitem[{Mamdani and Assilian(1975)}]{Mamdani1975}
 \bibinfo{author}{Mamdani, E.H.}, \bibinfo{author}{Assilian, S.},
   \bibinfo{year}{1975}.
@@ -256,6 +383,15 @@
 \newblock \bibinfo{journal}{Ecology and Society} \bibinfo{volume}{13},
   \bibinfo{pages}{46}.
 %Type = Article
+\bibitem[{Nemog{\'a} et~al.(2022)Nemog{\'a}, Appasamy et~al.}]{Nemoga2022}
+\bibinfo{author}{Nemog{\'a}, G.R.}, \bibinfo{author}{Appasamy, A.}, et~al.,
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Protecting indigenous and local knowledge through a
+  biocultural diversity framework}.
+\newblock \bibinfo{journal}{The Journal of Environment \& Development}
+  \bibinfo{volume}{31}, \bibinfo{pages}{385--413}.
+\newblock \DOIprefix\doi{10.1177/10704965221104781}.
+%Type = Article
 \bibitem[{Niemeijer and de~Groot(2008)}]{Niemeijer2008}
 \bibinfo{author}{Niemeijer, D.}, \bibinfo{author}{de~Groot, R.S.},
   \bibinfo{year}{2008}.
@@ -276,6 +412,15 @@
 \newblock \bibinfo{title}{Psychometric Theory}.
 \newblock \bibinfo{edition}{2} ed., \bibinfo{publisher}{McGraw-Hill},
   \bibinfo{address}{New York}.
+%Type = Article
+\bibitem[{Olsson et~al.(2004)Olsson, Folke and Berkes}]{OlssonFolkeBerkes2004}
+\bibinfo{author}{Olsson, P.}, \bibinfo{author}{Folke, C.},
+  \bibinfo{author}{Berkes, F.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Adaptive comanagement for building resilience in
+  social--ecological systems}.
+\newblock \bibinfo{journal}{Environmental Management} \bibinfo{volume}{34},
+  \bibinfo{pages}{75--90}.
+\newblock \DOIprefix\doi{10.1007/s00267-003-0101-7}.
 %Type = Book
 \bibitem[{Ostrom(1990)}]{Ostrom1990}
 \bibinfo{author}{Ostrom, E.}, \bibinfo{year}{1990}.
@@ -308,6 +453,14 @@
 \bibinfo{author}{Polanyi, M.}, \bibinfo{year}{1966}.
 \newblock \bibinfo{title}{The Tacit Dimension}.
 \newblock \bibinfo{publisher}{Doubleday}, \bibinfo{address}{Garden City, NY}.
+%Type = Article
+\bibitem[{Poorna et~al.(2014)Poorna, Mymoon and Hariharan}]{Poorna2014}
+\bibinfo{author}{Poorna, R.L.}, \bibinfo{author}{Mymoon, M.},
+  \bibinfo{author}{Hariharan, A.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Preservation and protection of traditional knowledge
+  --- diverse documentation initiatives across the globe}.
+\newblock \bibinfo{journal}{Current Science} \bibinfo{volume}{107},
+  \bibinfo{pages}{1240--1246}.
 %Type = Article
 \bibitem[{Pretty et~al.(2009)Pretty, Adams, Berkes, de~Athayde, Dudley, Hunn,
   Maffi, Milton, Rapport, Robbins, Sterling, Stolton, Tsing, Vintinner and
@@ -342,6 +495,37 @@
   \bibinfo{address}{Vienna, Austria}.
 \newblock \URLprefix \url{https://www.R-project.org/}.
 %Type = Article
+\bibitem[{Rathwell et~al.(2015)Rathwell, Armitage and Berkes}]{Rathwell2015}
+\bibinfo{author}{Rathwell, K.J.}, \bibinfo{author}{Armitage, D.},
+  \bibinfo{author}{Berkes, F.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Bridging knowledge systems to enhance governance of
+  the environmental commons: a typology of settings}.
+\newblock \bibinfo{journal}{International Journal of the Commons}
+  \bibinfo{volume}{9}, \bibinfo{pages}{751--773}.
+\newblock \DOIprefix\doi{10.18352/ijc.526}.
+%Type = Article
+\bibitem[{Rayne et~al.(2022)Rayne, Byrne and Rollins}]{Rayne2022}
+\bibinfo{author}{Rayne, A.}, \bibinfo{author}{Byrne, M.},
+  \bibinfo{author}{Rollins, L.A.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Integrating place-based knowledge for culturally
+  significant species recovery}.
+\newblock \bibinfo{journal}{Evolutionary Applications} \bibinfo{volume}{15},
+  \bibinfo{pages}{630--644}.
+\newblock \DOIprefix\doi{10.1111/eva.13367}.
+%Type = Article
+\bibitem[{Reyes-Garc{\'i}a et~al.(2013)Reyes-Garc{\'i}a, Luz, Gueze,
+  Paneque-G{\'a}lvez, Maci{\'a}, Orta-Mart{\'i}nez and
+  Pino}]{ReyesGarcia2013evidence}
+\bibinfo{author}{Reyes-Garc{\'i}a, V.}, \bibinfo{author}{Luz, A.C.},
+  \bibinfo{author}{Gueze, M.}, \bibinfo{author}{Paneque-G{\'a}lvez, J.},
+  \bibinfo{author}{Maci{\'a}, M.J.}, \bibinfo{author}{Orta-Mart{\'i}nez, M.},
+  \bibinfo{author}{Pino, J.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Evidence of traditional knowledge loss among a
+  contemporary indigenous society}.
+\newblock \bibinfo{journal}{Evolution and Human Behavior} \bibinfo{volume}{34},
+  \bibinfo{pages}{249--257}.
+\newblock \DOIprefix\doi{10.1016/j.evolhumbehav.2013.01.002}.
+%Type = Article
 \bibitem[{Rist and Dahdouh-Guebas(2006)}]{Rist2006}
 \bibinfo{author}{Rist, S.}, \bibinfo{author}{Dahdouh-Guebas, F.},
   \bibinfo{year}{2006}.
@@ -351,6 +535,13 @@
 \newblock \bibinfo{journal}{Environment, Development and Sustainability}
   \bibinfo{volume}{8}, \bibinfo{pages}{467--493}.
 \newblock \DOIprefix\doi{10.1007/s10668-006-9050-7}.
+%Type = Book
+\bibitem[{Robinson(2014)}]{Robinson2014}
+\bibinfo{author}{Robinson, D.F.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Biodiversity, Access and Benefit-Sharing: Global Case
+  Studies}.
+\newblock \bibinfo{publisher}{Routledge}.
+\newblock \DOIprefix\doi{10.4324/9781315882819}.
 %Type = Book
 \bibitem[{Santos(2007)}]{Santos2007}
 \bibinfo{author}{Santos, B.d.}, \bibinfo{year}{2007}.
@@ -390,6 +581,15 @@
   Knowledge-Based Assets}.
 \newblock \bibinfo{publisher}{Berrett-Koehler Publishers},
   \bibinfo{address}{San Francisco}.
+%Type = Article
+\bibitem[{Tang and Gavin(2016)}]{TangGavin2016}
+\bibinfo{author}{Tang, R.}, \bibinfo{author}{Gavin, M.C.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{A classification of threats to traditional ecological
+  knowledge and conservation responses}.
+\newblock \bibinfo{journal}{Conservation and Society} \bibinfo{volume}{14},
+  \bibinfo{pages}{57--70}.
+\newblock \DOIprefix\doi{10.4103/0972-4923.182799}.
 %Type = Book
 \bibitem[{{TEEB}(2010)}]{TEEB2010}
 \bibinfo{author}{{TEEB}}, \bibinfo{year}{2010}.
@@ -433,5 +633,20 @@
 \newblock \bibinfo{journal}{Information and Control} \bibinfo{volume}{8},
   \bibinfo{pages}{338--353}.
 \newblock \DOIprefix\doi{10.1016/S0019-9958(65)90241-X}.
+%Type = Article
+\bibitem[{Zimmerer et~al.(2018)Zimmerer, de~Haan, Jones, Creed-Kanashiro,
+  Tello, Carri{\'o}n, Meza, Plasencia~Amaya, Cruz-Garc{\'i}a, Takat{\=o} and
+  Reyes}]{Zimmerer2018}
+\bibinfo{author}{Zimmerer, K.S.}, \bibinfo{author}{de~Haan, S.},
+  \bibinfo{author}{Jones, A.D.}, \bibinfo{author}{Creed-Kanashiro, H.},
+  \bibinfo{author}{Tello, M.}, \bibinfo{author}{Carri{\'o}n, M.},
+  \bibinfo{author}{Meza, K.}, \bibinfo{author}{Plasencia~Amaya, F.},
+  \bibinfo{author}{Cruz-Garc{\'i}a, G.S.}, \bibinfo{author}{Takat{\=o}, R.R.},
+  \bibinfo{author}{Reyes, M.E.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{The biodiversity of food systems: mountain ecology,
+  remoteness, and the rise of agrobiodiversity}.
+\newblock \bibinfo{journal}{Annals of the American Association of Geographers}
+  \bibinfo{volume}{108}, \bibinfo{pages}{355--375}.
+\newblock \DOIprefix\doi{10.1080/24694452.2017.1354069}.
 
 \end{thebibliography}

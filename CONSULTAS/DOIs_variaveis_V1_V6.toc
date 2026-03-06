@@ -1,0 +1,7 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {section}{\numberline {1}V1 --- Erosão Intergeracional do Conhecimento Tradicional}{2}{section.1}%
+\contentsline {section}{\numberline {2}V2 --- Complexidade Biocultural}{2}{section.2}%
+\contentsline {section}{\numberline {3}V3 --- Singularidade Territorial}{3}{section.3}%
+\contentsline {section}{\numberline {4}V4 --- Status de Documentação}{4}{section.4}%
+\contentsline {section}{\numberline {5}V5 --- Vulnerabilidade Jurídica}{4}{section.5}%
+\contentsline {section}{\numberline {6}V6 --- Organização Social e Governança}{5}{section.6}%

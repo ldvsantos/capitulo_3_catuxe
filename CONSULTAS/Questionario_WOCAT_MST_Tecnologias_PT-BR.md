@@ -1086,6 +1086,266 @@ ________________________________________
 
 ---
 
+# 9. Seção Suplementar — Itens para Avaliação de Vulnerabilidade Biocultural (V1–V6)
+
+*Esta seção contém itens suplementares não cobertos pelo questionário WOCAT original, desenvolvidos para operacionalizar as seis dimensões de vulnerabilidade biocultural ($V_1$–$V_6$) em contexto de comunidades quilombolas. Os itens estão organizados em três camadas de coleta conforme a natureza da variável.*
+
+---
+
+## Camada 1 — Autorrelato (respondido pelo agricultor/líder comunitário) 👤
+
+### 9.1 Transmissão intergeracional e dimensão ritual (V1 — Erosão Intergeracional)
+
+**9.1.1 Participação de jovens na prática**
+
+Qual a proporção de jovens (< 35 anos) que dominam esta prática/saber na comunidade?
+
+○ Nenhum ○ Poucos (< 25%) ○ Alguns (25–50%) ○ A maioria (50–75%) ○ Quase todos (> 75%)
+
+**9.1.2 Taxa de transmissão ativa**
+
+Com que frequência ocorrem eventos de ensino/aprendizagem desta prática entre gerações (rodas de conversa, acompanhamento na roça, mutirões com aprendizes)?
+
+○ Nunca ○ Raramente (< 1 vez/ano) ○ Anualmente ○ Semestralmente ○ Mensalmente ou mais
+
+**9.1.3 Modalidade de transmissão**
+
+Como este saber é transmitido? (Várias respostas possíveis.)
+
+- ☐ Oralidade (conversa, narrativa, cantos)
+- ☐ Prática acompanhada (aprendiz trabalha junto ao mestre)
+- ☐ Ritual ou cerimônia (bênção de sementes, festas de colheita, oferendas)
+- ☐ Registro escrito ou audiovisual produzido pela comunidade
+- ☐ Não está sendo transmitido atualmente
+- ☐ Outro: ________________________________________
+
+**9.1.4 Significado ritual ou cosmológico vinculado à prática**
+
+Esta prática possui dimensão espiritual, ritual ou cosmológica (por exemplo, bênçãos sobre sementes, plantio associado a ciclos lunares, proibições em datas sagradas, oferendas)?
+
+○ Não ○ Sim, secundário (complementar à função técnica) ○ Sim, central (inseparável da execução da prática)
+
+Se sim, descreva brevemente: ________________________________________
+
+**9.1.5 Percepção de risco de perda**
+
+Na sua avaliação, qual o risco de este saber desaparecer na próxima geração?
+
+○ Muito baixo ○ Baixo ○ Moderado ○ Alto ○ Muito alto
+
+Comentários: ________________________________________
+
+---
+
+### 9.2 Governança comunitária e capital social (V6 — Organização Social)
+
+**9.2.1 Mestres de saberes**
+
+Quantas pessoas na comunidade são reconhecidas como guardiãs/mestres deste saber?
+
+○ Nenhuma ○ 1–2 ○ 3–5 ○ 6–10 ○ > 10
+
+Faixa etária predominante dos mestres: ☐ Jovens (< 35) ☐ Meia-idade (35–59) ☐ Idosos (≥ 60)
+
+**9.2.2 Eventos coletivos de transmissão e prática**
+
+Com que frequência ocorrem eventos coletivos relacionados a este saber (mutirões, trocas de sementes, feiras de agrobiodiversidade, rodas de prosa, encontros intercomunitários)?
+
+○ Nunca ○ Raramente (< 1 vez/ano) ○ Anualmente ○ Semestralmente ○ Mensalmente ou mais
+
+**9.2.3 Redes de cooperação intercomunitárias**
+
+A comunidade mantém intercâmbio deste saber com outras comunidades quilombolas ou tradicionais?
+
+○ Não ○ Sim, ocasionalmente (contato informal, visitas esporádicas) ○ Sim, regularmente (rede organizada, feiras, projetos conjuntos)
+
+Se sim, especifique comunidades ou redes: ________________________________________
+
+**9.2.4 Governança de gênero no saber**
+
+Quem participa das decisões sobre o manejo desta prática?
+
+- ☐ Predominantemente mulheres
+- ☐ Predominantemente homens
+- ☐ Ambos em proporção equilibrada
+- ☐ Conselhos de anciãos/anciãs
+- ☐ Assembleia comunitária aberta
+- ☐ Outro: ________________________________________
+
+Quem detém o conhecimento principal desta prática?
+
+- ☐ Predominantemente mulheres
+- ☐ Predominantemente homens
+- ☐ Ambos em proporção equilibrada
+
+---
+
+## Camada 2 — Inventário etnobotânico e ecológico (respondido por agricultor + pesquisador em campo) 👤 📏
+
+### 9.3 Agrobiodiversidade e etnotaxonomia (V2 — Complexidade Biocultural)
+
+**9.3.1 Inventário de variedades locais**
+
+*Instrução ao compilador: realize listagem livre com o agricultor. Para cada cultura principal, registre todas as variedades locais (crioulas, tradicionais) cultivadas ou conhecidas pelo informante. Use nomes locais.*
+
+| Cultura (nome científico ou comum) | Variedade local (nome dado pelo agricultor) | Origem/história da variedade | Uso principal |
+|:-----------------------------------|:---------------------------------------------|:-----------------------------|:-------------|
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+Número total de variedades locais listadas: ________
+
+**9.3.2 Classificação êmica de solos**
+
+*Instrução ao compilador: registre como o agricultor classifica os tipos de solo da propriedade/território, usando a terminologia local.*
+
+| Nome local do solo | Características segundo o agricultor | Culturas associadas (segundo o agricultor) | Correspondência pedológica aproximada (preenchido pelo pesquisador) |
+|:-------------------|:-------------------------------------|:-------------------------------------------|:------------------------------------------------------------------|
+| | | | |
+| | | | |
+| | | | |
+
+**9.3.3 Interações solo-planta-clima codificadas**
+
+O agricultor segue regras de associação entre tipo de solo, variedade cultivada e época de plantio baseadas em conhecimento tradicional?
+
+○ Não ○ Sim
+
+Se sim, descreva até 3 regras principais:
+
+1. ________________________________________
+2. ________________________________________
+3. ________________________________________
+
+---
+
+### 9.4 Singularidade e exclusividade territorial (V3 — Singularidade Territorial)
+
+**9.4.1 Exclusividade da prática**
+
+Até onde o agricultor sabe, esta prática/variedade existe em outras comunidades da região?
+
+○ Sim, é comum na região ○ Existe em algumas comunidades ○ Só existe nesta comunidade ○ Não sabe
+
+**9.4.2 Especificidade ambiental**
+
+Esta prática depende de condições ambientais específicas deste território (tipo de solo, microclima, água, vegetação nativa)?
+
+○ Não, pode ser aplicada em qualquer lugar ○ Parcialmente (algumas condições são específicas) ○ Sim, totalmente (só funciona aqui por condições únicas)
+
+Se sim, especifique: ________________________________________
+
+**9.4.3 Inventário comparativo entre comunidades** 📏
+
+*Instrução ao compilador: este item exige levantamento multi-sítio. Preencha após documentar pelo menos 2 comunidades. Para cada prática/saber documentado, indique presença/ausência em cada comunidade visitada.*
+
+| Prática/saber documentado | Comunidade A | Comunidade B | Comunidade C | Comunidade D |
+|:--------------------------|:------------:|:------------:|:------------:|:------------:|
+| | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente |
+| | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente |
+| | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente | ☐ Presente ☐ Ausente |
+
+---
+
+## Camada 3 — Auditoria documental e jurídico-institucional (preenchido pelo pesquisador/compilador) 📏
+
+### 9.5 Diagnóstico de déficit documental (V4 — Status de Documentação)
+
+**9.5.1 Registro formal prévio**
+
+Este saber/prática já foi objeto de algum registro formal antes deste levantamento?
+
+○ Não ○ Sim, parcialmente ○ Sim, completamente
+
+Se sim, tipo de registro:
+
+- ☐ Publicação acadêmica (artigo, dissertação, tese)
+- ☐ Relatório técnico (EMATER, EMBRAPA, ONG)
+- ☐ Ficha WOCAT ou banco de dados internacional
+- ☐ Registro audiovisual (vídeo, áudio, fotografia documental)
+- ☐ Inventário patrimonial (IPHAN, secretaria de cultura)
+- ☐ Registro comunitário (caderno, cartilha, protocolo da associação)
+- ☐ Outro: ________________________________________
+
+Referência (se disponível): ________________________________________
+
+**9.5.2 Completude documental**
+
+*Instrução ao compilador: para o conjunto de saberes/práticas identificados nesta comunidade, avalie o grau de documentação existente.*
+
+| Indicador | Valor |
+|:----------|:------|
+| Número total de saberes/práticas identificados nesta comunidade | ________ |
+| Número com algum tipo de registro formal | ________ |
+| Número com ficha técnica completa (descrição, fotos, especificações) | ________ |
+| Número com registro audiovisual | ________ |
+| Número com registro digitalizado e acessível online | ________ |
+
+**9.5.3 Risco de perda documental**
+
+Existem acervos orais (gravações, relatos) em risco de perda por deterioração de mídias, falecimento de informantes ou falta de infraestrutura de armazenamento?
+
+○ Não ○ Sim
+
+Se sim, descreva: ________________________________________
+
+---
+
+### 9.6 Proteção jurídica e propriedade intelectual (V5 — Vulnerabilidade Jurídica)
+
+**9.6.1 Situação fundiária da comunidade**
+
+| Item | Resposta |
+|:-----|:---------|
+| Certificação da Fundação Cultural Palmares | ○ Sim (Ano: ____) ○ Não ○ Em processo |
+| Título de propriedade coletiva (INCRA/ITERBA) | ○ Sim (Ano: ____) ○ Não ○ Em processo |
+| Existência de conflito fundiário ativo | ○ Sim ○ Não |
+| Área titulada (ha) | ________ |
+| Área reivindicada (ha) | ________ |
+
+**9.6.2 Instrumentos de propriedade intelectual**
+
+A comunidade possui ou está em processo de obtenção de algum dos instrumentos abaixo para proteger seus saberes/produtos?
+
+| Instrumento | Situação |
+|:------------|:---------|
+| Indicação Geográfica (IG — INPI) | ○ Não ○ Em processo ○ Sim (nº registro: ________) |
+| Marca Coletiva (INPI) | ○ Não ○ Em processo ○ Sim (nº registro: ________) |
+| Registro de Patrimônio Imaterial (IPHAN) | ○ Não ○ Em processo ○ Sim (nº processo: ________) |
+| Registro estadual/municipal de patrimônio | ○ Não ○ Em processo ○ Sim (órgão: ________) |
+| Protocolo Comunitário (Protocolo de Nagoya / Kunming-Montreal) | ○ Não ○ Em elaboração ○ Sim |
+| Registro de cultivar tradicional/crioula (MAPA/RNC) | ○ Não ○ Em processo ○ Sim |
+| Selo ou certificação (orgânico, comércio justo, quilombola) | ○ Não ○ Em processo ○ Sim (especifique: ________) |
+
+**9.6.3 Conhecimento sobre mecanismos de proteção**
+
+A comunidade tem conhecimento da existência dos instrumentos legais listados acima?
+
+○ Desconhece totalmente ○ Conhece vagamente ○ Conhece, mas não sabe como acessar ○ Conhece e já tentou acessar
+
+A comunidade já recebeu assessoria jurídica ou técnica sobre proteção de conhecimentos tradicionais?
+
+○ Não ○ Sim (especifique instituição: ________)
+
+**9.6.4 Casos de apropriação indevida**
+
+Há registro ou percepção de que saberes, variedades ou práticas da comunidade tenham sido apropriados por terceiros sem consentimento ou repartição de benefícios?
+
+○ Não ○ Sim ○ Suspeita, mas sem confirmação
+
+Se sim, descreva brevemente: ________________________________________
+
+---
+
+*Fim da Seção Suplementar.*
+
+\newpage
+
+---
+
 # 8. Anexo — Listas de referência
 
 *As listas abaixo são empregadas nos campos de seleção do questionário (seções 3.2 e 3.3). Apresenta-se versão condensada.*

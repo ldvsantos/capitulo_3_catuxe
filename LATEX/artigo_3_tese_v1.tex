@@ -1,0 +1,468 @@
+
+% Template for Elsevier journal article Ecological Economics
+% version 1.2 dated 09 May 2011
+
+% This file (c) 2009-2011 Elsevier Ltd.  Modifications may be freely made,
+% provided the edited file is saved under a different name
+
+% This file contains modifications for Ecological Economics
+% but may easily be adapted to other journals
+
+% Changes since version 1.1
+% - added "procedia" option compliant with ecrc.sty version 1.2a
+%   (makes the layout approximately the same as the Word CRC template)
+% - added example for generating copyright line in abstract
+
+%-----------------------------------------------------------------------------------
+
+%% This template uses the elsarticle.cls document class and the extension package ecrc.sty
+%% For full documentation on usage of elsarticle.cls, consult the documentation "elsdoc.pdf"
+%% Further resources available at http://www.elsevier.com/latex
+
+%-----------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                          %%
+%% Important note on usage                                  %%
+%% -----------------------                                  %%
+%% This file should normally be compiled with PDFLaTeX      %%
+%% Using standard LaTeX should work but may produce clashes %%
+%%                                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% The '3p' and 'times' class options of elsarticle are used for Elsevier CRC
+%% Add the 'procedia' option to approximate to the Word template
+%\documentclass[3p,times,procedia]{elsarticle}
+\documentclass[3p,times]{elsarticle}
+
+%% The `ecrc' package must be called to make the CRC functionality available
+\usepackage{ecrc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[breaklinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds, calc}
+
+%% The ecrc package defines commands needed for running heads and logos.
+%% For running heads, you can set the journal name, the volume, the starting page and the authors
+
+%% set the volume if you know. Otherwise `00'
+\volume{00}
+
+%% set the starting page if not 1
+\firstpage{1}
+
+%% Give the name of the journal
+\journalname{Ecological Economics}
+
+%% Give the author list to appear in the running head
+%% Example \runauth{C.V. Radhakrishnan et al.}
+\runauth{Oliveira et al.}
+
+%% The choice of journal logo is determined by the \jid and \jnltitlelogo commands.
+%% A user-supplied logo with the name <\jid>logo.pdf will be inserted if present.
+%% e.g. if \jid{yspmi} the system will look for a file yspmilogo.pdf
+%% Otherwise the content of \jnltitlelogo will be set between horizontal lines as a default logo
+
+%% Give the abbreviation of the Journal.  Contact the journal editorial office if in any doubt
+\jid{ecolecon}
+
+%% Give a short journal name for the dummy logo (if needed)
+\jnltitlelogo{Ecological Economics}
+
+%% Provide the copyright line to appear in the abstract
+%% Usage:
+%   \CopyrightLine[<text-before-year>]{<year>}{<restt-of-the-copyright-text>}
+%   \CopyrightLine[Crown copyright]{2011}{Published by Elsevier Ltd.}
+%   \CopyrightLine{2011}{Elsevier Ltd. All rights reserved}
+\CopyrightLine{2026}{Published by Elsevier B.V. All rights reserved.}
+
+%% Hereafter the template follows `elsarticle'.
+%% For more details see the existing template files elsarticle-template-harv.tex and elsarticle-template-num.tex.
+
+%% Elsevier CRC generally uses a numbered reference style
+%% For this, the conventions of elsarticle-template-num.tex should be followed (included below)
+%% If using BibTeX, use the style file elsarticle-num.bst
+
+%% End of ecrc-specific commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% The amssymb package provides various useful mathematical symbols
+\usepackage{amssymb}
+%% The amsthm package provides extended theorem environments
+%% \usepackage{amsthm}
+
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers after \end{frontmatter}.
+\usepackage{lineno}
+
+%% natbib.sty is loaded by default. However, natbib options can be
+%% provided with \biboptions{...} command. Following options are
+%% valid:
+
+%%   round  -  round parentheses are used (default)
+%%   square -  square brackets are used   [option]
+%%   curly  -  curly braces are used      {option}
+%%   angle  -  angle brackets are used    <option>
+%%   semicolon  -  multiple citations separated by semi-colon
+%%   colon  - same as semicolon, an earlier confusion
+%%   comma  -  separated by comma
+%%   numbers-  selects numerical citations
+%%   super  -  numerical citations as superscripts
+%%   sort   -  sorts multiple citations according to order in ref. list
+%%   sort&compress   -  like sort, but also compresses numerical citations
+%%   compress - compresses without sorting
+%%
+%% \biboptions{comma,round}
+
+% \biboptions{}
+
+% \usepackage[figuresright]{rotating}  % removido: sem tabelas paisagem
+
+% put your own definitions here:
+%   \newcommand{\cZ}{\cal{Z}}
+%   \newtheorem{def}{Definition}[section]
+%   ...
+
+% add words to TeX's hyphenation exception list
+%\hyphenation{author another created financial paper re-commend-ed Post-Script}
+
+% declarations for front matter
+
+\begin{document}
+
+\begin{frontmatter}
+
+%% Title, authors and addresses
+
+%% use the tnoteref command within \title for footnotes;
+%% use the tnotetext command for the associated footnote;
+%% use the fnref command within \author or \address for footnotes;
+%% use the fntext command for the associated footnote;
+%% use the corref command within \author for corresponding author footnotes;
+%% use the cortext command for the associated footnote;
+%% use the ead command for the email address,
+%% and the form \ead[url] for the home page:
+%%
+%% \title{Title\tnoteref{label1}}
+%% \tnotetext[label1]{}
+%% \author{Name\corref{cor1}\fnref{label2}}
+%% \ead{email address}
+%% \ead[url]{home page}
+%% \fntext[label2]{}
+%% \cortext[cor1]{}
+%% \address{Address\fnref{label3}}
+%% \fntext[label3]{}
+
+\dochead{}
+
+\title{Adaptação transcultural do WOCAT-SLM e elicitação Delphi de variáveis de vulnerabilidade biocultural em comunidades quilombolas do semiárido brasileiro}
+
+\author[a]{Catuxe Varjão de Santana Oliveira\corref{cor1}}
+\ead{catuxe@academico.ufs.br}
+\author[b]{Luiz Diego Vidal Santos}
+\ead{ldvsantos@uefs.br}
+\author[a]{XXXXXXX}
+
+\cortext[cor1]{Autor correspondente.}
+\address[a]{Programa de Pós-Graduação em Ciência da Propriedade Intelectual (PPGPI), Universidade Federal de Sergipe (UFS), São Cristóvão, SE, Brasil}
+\address[b]{Universidade Estadual de Feira de Santana (UEFS), Feira de Santana, BA, Brasil}
+
+\begin{abstract}
+A salvaguarda de Saberes e Sistemas Agrícolas Tradicionais (SSAT) em comunidades quilombolas demanda instrumentos de avaliação culturalmente equivalentes e variáveis mensuráveis, consensuadas e auditáveis, passíveis de integração em modelos de priorização. O questionário WOCAT (\textit{World Overview of Conservation Approaches and Technologies}), referência global para documentação de tecnologias de gestão sustentável da terra, não dispõe de versão adaptada para comunidades tradicionais brasileiras. Este estudo integra duas fases complementares aplicadas a Comunidades Quilombolas (CQ) do Território de Identidade Semiárido Nordeste~II (Bahia). Na Fase~1, o questionário WOCAT-SLM será adaptado transculturalmente via protocolo de seis etapas \citep{Beaton2000} complementado pelas diretrizes ITC, visando produzir a versão WOCAT-SLM-QBR com IVC~$\geq$~0,90, kappa de Fleiss~$\geq$~0,75 e taxa de compreensão~$\geq$~85\%, com identificação de lacunas culturais e proposição de itens suplementares. Na Fase~2, painel Delphi heterogêneo ($n = 10$--$15$) elicitará variáveis candidatas ao Índice de Salvaguarda Biocultural (ISB) nas seis dimensões de vulnerabilidade biocultural ($V_1$--$V_6$): erosão intergeracional, complexidade biocultural, singularidade territorial, \textit{status} de documentação, vulnerabilidade jurídica e organização social. A convergência será aferida por coeficiente de concordância de Kendall ($W \geq 0{,}70$) e Coeficiente de Validade de Conteúdo ($CVC \geq 0{,}80$), com triangulação por entrevistas semiestruturadas com agricultores quilombolas. As variáveis validadas constituirão insumo direto para a construção do ISB via integração TRI-fuzzy, oferecendo cadeia metodológica que conecta a riqueza fenomenológica dos saberes tradicionais à exigência de formalização de sistemas de apoio à decisão.
+\end{abstract}
+
+\begin{keyword}
+Cross-cultural adaptation \sep Delphi method \sep WOCAT-SLM \sep Biocultural vulnerability \sep Sustainable land management \sep Quilombola communities \sep Intellectual property
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+
+\section{Introdução}
+\label{sec:intro}
+
+Indicadores convencionais de sustentabilidade apreendem variáveis biofísicas isoladas sem capturar as sinergias entre conservação do solo, coesão sociocultural e serviços ecossistêmicos que caracterizam sistemas agroflorestais de Comunidades Quilombolas (CQ) \citep{Costanza1997,Dale2001}. Essa insuficiência compromete tanto a gestão sustentável da terra (SLM) quanto a formulação de políticas de proteção do patrimônio biocultural, dado que decisões baseadas em indicadores parciais subestimam o capital cultural como componente de resiliência \citep{Berkes2017}. Em sistemas quilombolas, o componente biofísico representa apenas um vetor dentro de matriz multidimensional em que cultura, governança e economia desempenham papéis equivalentes na manutenção da resiliência socioecológica \citep{Toledo2008}.
+
+
+O questionário WOCAT (\textit{World Overview of Conservation Approaches and Technologies}), adotado pela FAO e UNCCD \citep{Liniger2019,Schwilch2012}, constitui o framework mais consolidado para documentação de tecnologias SLM, com aplicações em mais de 120 países. Contudo, a aplicação direta desse instrumento a CQ do semiárido nordestino esbarra em barreiras de equivalência nos planos semântico, experiencial e conceitual \citep{Herdman1999}. No plano semântico, terminologia agronômica sem paralelo no vocabulário etnotaxonômico quilombola compromete a compreensão \citep{Rist2006,Quave2014}. No plano experiencial, categorias de resposta pressupõem contextos fundiários formalizados, incompatíveis com regimes coletivos de reconhecimento jurídico precário \citep{Almeida2011}. No plano conceitual, a racionalidade agronômica ocidental não contempla dimensões espirituais e simbólicas constitutivas do manejo quilombola \citep{Santos2007,Toledo2008}.
+
+Aplicar instrumentos sem adaptação formal produz viés sistemático de mensuração \citep{Guillemin1993}, risco relevante neste estudo porque o WOCAT-SLM adaptado servirá como template de referência para a elicitação Delphi e, indiretamente, para a construção do Índice de Salvaguarda Biocultural (ISB). A Fase~1 adapta transculturalmente o WOCAT-SLM via protocolo ITC \citep{Beaton2000}, e a Fase~2 elicita e consensua variáveis linguísticas de vulnerabilidade biocultural ($V_1$--$V_6$) mediante Delphi estruturado com triangulação qualitativa.
+
+A questão norteadora formula-se nos seguintes termos: em que medida o processo combinado de adaptação transcultural e elicitação Delphi produz instrumento culturalmente equivalente e conjunto validado de variáveis mensuráveis, aumentando consenso e comparabilidade entre avaliadores?
+
+A hipótese (H3) postula que: (a)~a versão adaptada (WOCAT-SLM-QBR) atingirá IVC~$\geq$~0,80, kappa de Fleiss~$\geq$~0,70 e taxa de compreensão~$\geq$~80\%, gerando itens suplementares culturalmente específicos; e (b)~a aplicação do método Delphi sobre as dimensões do instrumento adaptado produzirá índice de consenso estatístico ($W \geq 0{,}70$; $CVC \geq 0{,}80$) superior ao obtido por métodos não estruturados.
+
+Nesse contexto, este estudo visa converter saberes tácitos em variáveis computacionalmente processáveis e auditáveis mediante adaptação transcultural do questionário WOCAT-SLM e elicitação estruturada (Delphi), produzindo instrumento culturalmente equivalente e conjunto validado de variáveis linguísticas organizadas nas seis dimensões de vulnerabilidade biocultural ($V_1$--$V_6$) que constituirão insumo direto para a construção do Índice de Salvaguarda Biocultural (ISB).
+
+
+\section{Referencial Teórico}
+\label{sec:theory}
+
+\subsection{Equivalência Transcultural e Validade de Construto}
+
+Transpor instrumentos entre contextos culturais exige procedimento que vai além da tradução linguística. O modelo hierárquico de \citet{Herdman1999} formaliza essa exigência ao estratificar a equivalência transcultural em seis níveis progressivos, da equivalência conceitual e de itens até a equivalência funcional, perpassando as dimensões semântica, operacional e de mensuração. A teoria psicométrica clássica, consolidada por \citet{Nunnally1978}, postula que a validade de um instrumento repousa sobre três pilares interdependentes (conteúdo, construto e critério), cujo atendimento torna-se exponencialmente complexo quando o objeto mensurado é culturalmente contingente, como ocorre com saberes tradicionais que resistem à decomposição em itens discretos \citep{Polanyi1966}.
+
+No cerne dessa complexidade situa-se a tensão entre abordagens \textit{etic} (universalista) e \textit{emic} (culturalmente específica) descrita por \citet{Pike1967}. Instrumentos com orientação predominantemente \textit{etic}, como o WOCAT, pressupõem categorias universalmente aplicáveis que viabilizam comparabilidade internacional à custa de obscurecer categorias \textit{emic} significativas. Agricultores quilombolas, por exemplo, classificam terras por atributos espirituais ou memória social, categorias invisíveis ao instrumento original \citep{Toledo2008}. Preservar a dimensão \textit{etic} que confere comparabilidade e, concomitantemente, incorporar dimensões \textit{emic} que conferem validade ecológica define o duplo desafio conceitual subjacente à adaptação de instrumentos entre epistemologias distintas.
+
+Essa dualidade remete ao problema fundamental da comensurabilidade entre paradigmas, formulado por \citet{Kuhn1962} e revisitado na literatura sobre pluralismo epistemológico em ciência da sustentabilidade \citep{Miller2008}. A questão não é meramente técnica (traduzir termos), mas ontológica (negociar o que conta como conhecimento válido entre matrizes culturais que operam com categorias parcialmente sobrepostas e parcialmente incomensuráveis). A equivalência funcional, nível mais elevado do modelo de \citet{Herdman1999}, somente se verifica quando o instrumento adaptado desempenha papel análogo ao original na cultura de destino, critério que, no caso de sistemas socioecológicos complexos, implica que o instrumento deve capturar não apenas variáveis biofísicas mas também a rede de significados culturais que confere coerência ao sistema de manejo \citep{Guillemin1993,Beaton2000}.
+
+\subsection{Epistemologia do Conhecimento Tácito e Conversão entre Modos de Saber}
+
+A distinção entre conhecimento tácito e explícito, formalizada por \citet{Polanyi1966} sob a máxima ``sabemos mais do que podemos dizer'' (\textit{we can know more than we can tell}), orienta investigações sobre codificação de saberes em múltiplos domínios. Em sistemas agroecológicos tradicionais essa fronteira torna-se particularmente opaca, dado que manejo fenológico, leitura de sinais climáticos e seleção de variedades são transmitidos oralmente e pela prática cotidiana \citep{Berkes2017,Toledo2008}.
+
+A espiral SECI de \citet{Nonaka1995} (Socialização, Externalização, Combinação e Internalização) modela a conversão progressiva entre modos de conhecimento. Para saberes tradicionais, a transição Socialização--Externalização constitui o gargalo epistêmico central, porquanto categorias experienciais (percepção tátil do solo, leitura de nuvens, reconhecimento de fenofases) precisam ser articuladas em linguagem padronizada sem perda de significado substancial. \citet{Davenport1998} argumentam que o conhecimento, diferentemente da informação, é contextual, experiencial e mediado por julgamento, propriedades que dificultam sua transferência por meios puramente documentais. A ISO~30401:2018 reconhece que o valor do conhecimento depende de cultura, processos e aprendizagem organizacional \citep{ISO30401}, perspectiva que amplia a gestão do conhecimento para além do ambiente corporativo.
+
+Nesse marco, a noção de \textit{capacidade absortiva} de \citet{CohenLevinthal1990} opera em sentido inverso ao convencional, dado que são as instituições formais que precisam absorver o conhecimento das comunidades tradicionais, e não o contrário \citep{Santos2007}. A adaptação de instrumentos de avaliação não constitui simplificação, mas reconhecimento de que o conhecimento relevante para mensuração de capital biocultural encontra-se nos detentores de saberes tácitos \citep{FalsBorda1991}.
+
+\subsection{Ativos Intangíveis, Economia Ecológica e Capital Biocultural}
+
+Ativos intangíveis superam os tangíveis como fator de criação de riqueza \citep{Lev2001}. \citet{Sveiby1997} formalizou a tipologia do capital intelectual em três componentes (humano, estrutural e relacional), enquanto \citet{Edvinsson1997} demonstrou que a contabilidade tradicional falha em capturar esses ativos. Quando transposta para CQ, essa invisibilidade contábil torna-se estrutural, visto que saberes de manejo, variedades agrícolas selecionadas ao longo de gerações e instituições comunitárias de governança são, por definição, intangíveis e não monetizados.
+
+A economia ecológica oferece marcos complementares. \citet{Costanza1997} evidenciaram que a riqueza natural constitui fluxo indispensável à economia humana mesmo quando invisível ao PIB, \citet{PearceTurner1990} formalizaram o Valor Econômico Total (VET) e a iniciativa TEEB demonstrou que a não valoração gera custos superiores aos da conservação \citep{TEEB2010}. O conceito de capital biocultural \citep{Maffi2001,Pretty2009} designa o acervo integrado de diversidade biológica e cultural co-evoluído entre comunidades e ecossistemas, incorporando dimensão epistêmica (saberes), normativa (instituições e rituais) e relacional (redes de troca e cooperação). \citet{MartinezAlier2002} argumenta que colapsar essas dimensões em unidade monetária única apaga comensuralidades irredutíveis, razão pela qual abordagens de indicadores compostos com modelagem de incerteza tornam-se conceitualmente necessárias.
+
+\subsection{O Framework WOCAT: Arquitetura Conceitual e Potencial Analítico}
+
+O \textit{World Overview of Conservation Approaches and Technologies} (WOCAT) constitui o principal framework internacional para documentação padronizada de Tecnologias de Manejo Sustentável da Terra (\textit{Sustainable Land Management}, SLM), desenvolvido pelo Centre for Development and Environment da Universidade de Berna e endossado pela Convenção das Nações Unidas de Combate à Desertificação (UNCCD) como ferramenta oficial de sistematização de boas práticas \citep{Liniger2019}. Desde sua criação em 1992, o WOCAT acumulou mais de 2.000 tecnologias documentadas em 120 países, consolidando-se como o mais amplo repositório global de evidências sobre conservação de solos e água em contextos de degradação da terra. A relevância do framework para a economia ecológica reside precisamente nessa capacidade de converter práticas locais de manejo, frequentemente não monetizadas e invisíveis às contas nacionais, em registros sistematizados que viabilizam análises comparativas de custo-benefício e impacto socioambiental.
+
+A arquitetura modular do questionário WOCAT para Tecnologias SLM organiza-se em sete seções funcionalmente encadeadas que percorrem a cadeia completa, desde a identificação e localização georreferenciada da tecnologia (\S1) até o registro de fontes, instituições e processos de governança envolvidos (\S7). O núcleo conceitual do instrumento concentra-se nas seções intermediárias, onde a descrição técnica e classificação de medidas (\S2) fornece a base taxonômica que alimenta a tipificação de uso da terra, processos de degradação e funções protetoras (\S3), enquanto a contabilização de insumos e custos de estabelecimento e manutenção (\S4) articula-se com o perfil biofísico e socioeconômico dos usuários e do ambiente natural (\S5). A análise convergente de impactos ecológicos, socioeconômicos e socioculturais, combinada com avaliação de custo-benefício (\S6), fecha o circuito avaliativo e gera evidências para tomada de decisão em múltiplas escalas.
+
+Essa organização confere ao WOCAT propriedade analítica frequentemente subutilizada na literatura, pois a cobertura simultânea de dimensões técnicas, ecológicas, econômicas e institucionais permite derivar construtos avaliativos multidimensionais que transcendem a finalidade original de documentação de tecnologias isoladas. A Tabela~\ref{tab:wocat_delphi} explicita o mapeamento entre os módulos do instrumento e as seis dimensões de vulnerabilidade biocultural ($V_1$--$V_6$), evidenciando como as seções WOCAT se convertem em variáveis operacionalizáveis dentro do framework hexadimensional, preservando parcimônia e rastreabilidade.
+
+\begin{table}[htbp]
+\centering
+\caption{Mapeamento entre se\c{c}\~oes do question\'ario WOCAT, dimens\~oes de vulnerabilidade biocultural ($V_1$--$V_6$) e vari\'aveis-chave deriv\'aveis para o painel Delphi.}
+\label{tab:wocat_delphi}
+\small
+\begin{tabular}{p{0.8cm}p{2.2cm}p{3.5cm}p{4.5cm}}
+\toprule
+\textbf{Dim.} & \textbf{Denomina\c{c}\~ao} & \textbf{Se\c{c}\~oes WOCAT de origem} & \textbf{Vari\'aveis-chave deriv\'aveis} \\
+\midrule
+$V_1$ & Eros\~ao Intergeracional & \S2 Descri\c{c}\~ao; \S6.1 Impactos socioculturais & Propor\c{c}\~ao de jovens praticantes, taxa de transmiss\~ao ativa, significado ritual vinculado \`a pr\'atica \\
+$V_2$ & Complexidade Biocultural & \S3 Classifica\c{c}\~ao; \S5 Ambiente natural; \S6.1 Impactos ecol\'ogicos & Agrobiodiversidade (Shannon $H'$, Simpson), riqueza de variedades locais, intera\c{c}\~oes solo-planta codificadas \\
+$V_3$ & Singularidade Territorial & \S3 Classifica\c{c}\~ao; \S5 Ambiente natural & Beta-diversidade de pr\'aticas entre comunidades, endemismo de variedades, propor\c{c}\~ao de pr\'aticas exclusivas \\
+$V_4$ & Status de Documenta\c{c}\~ao & \S2 Descri\c{c}\~ao; \S6.5 Ado\c{c}\~ao; \S7 Refer\^encias & N\'umero de saberes com registro formal, completude de fichas t\'ecnicas, taxa de digitaliza\c{c}\~ao de acervos \\
+$V_5$ & Vulnerabilidade Jur\'idica & \S5.6 Caracter\'isticas dos usu\'arios; \S5.8 Propriedade & Mecanismos formais de prote\c{c}\~ao (IG, marca coletiva, registro IPHAN), exist\^encia de protocolo comunit\'ario \\
+$V_6$ & Organiza\c{c}\~ao Social & \S5.9 Infraestrutura; \S6.1 Institui\c{c}\~oes comunit\'arias; \S6.5 Ado\c{c}\~ao & Mestres de saberes ativos, frequ\^encia de eventos de transmiss\~ao, redes de coopera\c{c}\~ao, equidade de g\^enero \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Comunidades Quilombolas e Especificidades dos SSAT}
+
+Os Saberes e Sistemas Agrícolas Tradicionais (SSAT) quilombolas são governados pelo complexo Conhecimento-Prática-Crença (K-P-B) descrito por \citet{Toledo2008}, onde crenças funcionam como regulador ético-cosmológico do manejo. Esses sistemas exemplificam manejo adaptativo de longa duração \citep{Berkes2017}, constituindo patrimônio biocultural no qual diversidade biológica e diversidade cultural co-evoluem \citep{Maffi2001,Pretty2009}.
+
+O WOCAT original falha em capturar três dimensões constitutivas dos SSAT quilombolas. A esfera espiritual-ritual (bênçãos sobre sementes, plantio sincronizado com ciclos lunares, proibições em datas sagradas) permanece invisível às categorias do instrumento. A transmissão intergeracional via oralidade não é documentada, dado que o WOCAT registra a tecnologia como produto acabado \citep{Polanyi1966}. A lógica coletiva-comunitária (mutirões, trocas de sementes, manejo comunitário) opera sob governança de bens comuns \citep{Ostrom1990} e escapa à arquitetura do instrumento, desenhada para práticas individualizadas. Essa tríplice lacuna ilustra o que \citet{Santos2007} denomina injustiça cognitiva.
+
+\subsection{Indicadores Socioecológicos, DPSIR e Lógica Difusa}
+
+A construção de indicadores socioecológicos integrados enfrenta desafios conceituais que transcendem a mera agregação de variáveis biofísicas e sociais. \citet{Dale2001} argumentam que indicadores ecológicos devem satisfazer critérios de relevância, praticabilidade e responsividade temporal, enquanto \citet{Niemeijer2008} demonstram que a seleção deve ser guiada por framework causal que explicite relações entre variáveis.
+
+O framework DPSIR (\textit{Driving forces, Pressures, State, Impact, Responses}), empregado pela Agência Europeia do Meio Ambiente \citep{Smeets1999}, confere rastreabilidade causal à modelagem de sistemas socioecológicos. Em SSAT, as forças motrizes correspondem às pressões econômicas e institucionais, o estado descreve condição integrada onde práticas culturais modulam processos ecossistêmicos, o impacto manifesta-se na capacidade adaptativa e coesão social e as respostas traduzem-se em intervenções informadas pelo indicador composto. O conceito de resiliência socioecológica, formalizado por \citet{Holling1973} e expandido por \citet{Folke2010}, sustenta que indicadores devem capturar a capacidade do sistema de absorver perturbações mantendo função e identidade.
+
+A teoria dos conjuntos difusos \citep{Zadeh1965}, operacionalizada em sistemas de inferência por \citet{Mamdani1975}, permite graus de pertinência no intervalo $[0,1]$, propriedade alinhada à natureza gradual dos julgamentos em sistemas socioecológicos. As variáveis linguísticas elicitadas nesta etapa constituirão os termos primários para operacionalização subsequente via sistema de inferência fuzzy Mamdani, cuja construção e integração no Índice de Salvaguarda Biocultural (ISB) será objeto de estudo específico.
+
+
+\section{Materiais e Métodos}
+\label{sec:methods}
+
+\subsection{Delineamento Geral}
+
+Esta investigação adota delineamento de estudo metodológico de métodos mistos \citep{Creswell2018}, organizado em duas fases sequenciais integradas segundo boas práticas de desenvolvimento de indicadores socioecológicos \citep{Dale2001,Niemeijer2008}. A Fase~1 compreende a Adaptação Transcultural do WOCAT-SLM (protocolo de \citet{Beaton2000}) e a Fase~2 refere-se à Elicitação Delphi com triangulação qualitativa. Cada variável componente do indicador atende aos critérios SMART (específica, mensurável, atingível, relevante e temporal), verificados durante o ciclo Delphi mediante avaliação explícita de clareza e operacionalidade. A integração segue delineamento sequencial, de modo que o instrumento adaptado na Fase~1 serve como template de referência para as dimensões avaliativas da Fase~2, cujas variáveis consensuadas alimentarão diretamente as funções de pertinência do Índice de Salvaguarda Biocultural (ISB) em etapa subsequente. A triangulação entre dados qualitativos (entrevistas) e métricas estatísticas (Delphi) opera como salvaguarda contra viés cultural, assegurando que nenhuma dimensão do indicador dependa de fonte única de evidência.
+
+A seleção de variáveis obedece ao critério de representatividade biocultural e não à hierarquia de disponibilidade de dados biofísicos. Cada dimensão de vulnerabilidade ($V_1$--$V_6$) receberá tratamento representativo na cadeia de operacionalização, de modo que as distribuições empíricas do consenso Delphi informarão a parametrização subsequente do Índice de Salvaguarda Biocultural (ISB), assegurando que dimensões socioculturais não sejam subordinadas a componentes biofísicos. A Figura~\ref{fig:flowchart} apresenta o fluxo geral do estudo.
+
+\begin{figure*}[!htbp]
+\centering
+\begin{tikzpicture}[
+  node distance=0.4cm and 0.2cm,
+  every node/.style={font=\footnotesize},
+  phase/.style={rectangle, rounded corners=3pt, draw=black!70, fill=black!8,
+    minimum height=0.55cm, text width=2.1cm, align=center, font=\footnotesize\bfseries},
+  stepbox/.style={rectangle, rounded corners=2pt, draw=black!60, fill=white,
+    minimum height=0.7cm, text width=1.85cm, align=center, font=\scriptsize},
+  output/.style={rectangle, rounded corners=2pt, draw=black!80, fill=black!12,
+    minimum height=0.7cm, text width=2.0cm, align=center,
+    font=\scriptsize\bfseries},
+  arr/.style={-{Stealth[length=2.5pt]}, thick, black!65},
+  dashline/.style={-{Stealth[length=2.5pt]}, thick, black!50, dashed},
+  phaselabel/.style={font=\scriptsize\itshape, text=black!60}
+]
+% ---- FASE 1 ----
+\node[phase] (f1) {Fase 1\\Adapta\c{c}\~ao Transcultural};
+\node[stepbox, right=0.5cm of f1]  (e1) {Etapa 1\\Tradu\c{c}\~ao\\(T1 + T2)};
+\node[stepbox, right=of e1]        (e2) {Etapa 2\\S\'intese\\(T-12)};
+\node[stepbox, right=of e2]        (e3) {Etapa 3\\Retrotradu\c{c}\~ao\\(BT1 + BT2)};
+\draw[arr] (f1) -- (e1);
+\draw[arr] (e1) -- (e2);
+\draw[arr] (e2) -- (e3);
+% segunda linha fase 1
+\node[stepbox, below=0.55cm of e1]  (e4) {Etapa 4\\Comit\^e\\(5--7 membros)};
+\node[stepbox, right=of e4]        (e5) {Etapa 5\\Pr\'e-teste\\($n=10$--15)};
+\node[output, right=of e5]      (e6) {Etapa 6\\WOCAT-SLM-QBR};
+\draw[arr] (e3.south) -- ++(0,-0.275) -| (e4.north);
+\draw[arr] (e4) -- (e5);
+\draw[arr] (e5) -- (e6);
+% ---- FASE 2 ----
+\node[phase, below=1.0cm of f1 |- e4.south] (f2) {Fase 2\\Elicita\c{c}\~ao Delphi};
+\node[stepbox, right=0.5cm of f2]  (r1) {Rodada 1\\Diverg\^encia\\(quest. aberto)};
+\node[stepbox, right=of r1]        (r2) {Rodada 2\\Converg\^encia\\($Md\geq 4$)};
+\node[stepbox, right=of r2]        (r3) {Rodada 3\\Consenso\\($W\geq 0{,}70$)};
+\draw[arr] (f2) -- (r1);
+\draw[arr] (r1) -- (r2);
+\draw[arr] (r2) -- (r3);
+% segunda linha fase 2
+\node[stepbox, below=0.55cm of r1]  (tr) {Triangula\c{c}\~ao\\Entrevistas\\($n=8$--10)};
+\node[output, right=of tr]      (iv) {20--30 Vari\'aveis\\validadas $\rightarrow$ ISB};
+\draw[arr] (r3.south) -- ++(0,-0.275) -| (tr.north);
+\draw[arr] (tr) -- (iv);
+% conector entre fases
+\draw[dashline] (e6.south) -- ++(0,-0.35) -| (f2.north);
+% backgrounds
+\begin{scope}[on background layer]
+  \node[draw=black!25, rounded corners=4pt,
+    fit=(f1)(e1)(e2)(e3)(e4)(e5)(e6),
+    inner xsep=4pt, inner ysep=6pt] {};
+  \node[draw=black!25, rounded corners=4pt,
+    fit=(f2)(r1)(r2)(r3)(tr)(iv),
+    inner xsep=4pt, inner ysep=6pt] {};
+\end{scope}
+\end{tikzpicture}
+\caption{Fluxograma do processo integrado de adapta\c{c}\~ao transcultural (Fase~1) e elicita\c{c}\~ao Delphi (Fase~2) do question\'ario WOCAT-SLM.}
+\label{fig:flowchart}
+\end{figure*}
+
+% ============================================================
+% FASE 1: ADAPTAÇÃO TRANSCULTURAL
+% ============================================================
+\subsection{Fase 1. Adaptação Transcultural do WOCAT-SLM}
+
+\subsubsection{Etapa 1. Tradução Direta (Inglês $\rightarrow$ Português)}
+
+Dois tradutores independentes realizarão a tradução integral do questionário WOCAT-SLM (seções 2, 3, 5 e 6) do inglês para o português brasileiro. O Tradutor~1 (T1), profissional com formação em ciências agrárias, bilíngue e ciente dos objetivos do estudo, priorizará equivalência técnica e terminológica. O Tradutor~2 (T2), profissional sem formação técnica na área, bilíngue e não informado dos objetivos, preservará linguagem coloquial e acessibilidade.
+
+A divergência intencional entre perfis maximiza a detecção de ambiguidades \citep{Beaton2000}. Cada tradutor produzirá versão independente (T1 e T2) acompanhada de relatório de decisões.
+
+\subsubsection{Etapa 2. Síntese das Traduções (T-12)}
+
+Os tradutores e um mediador produzirão versão sintetizada (T-12). Discrepâncias serão resolvidas mediante negociação documentada, com itens não resolvidos encaminhados ao comitê de especialistas.
+
+\subsubsection{Etapa 3. Retrotradução (Português $\rightarrow$ Inglês)}
+
+Dois retrotradutores independentes, nativos de língua inglesa ou com proficiência C2, sem conhecimento do original, traduzirão a T-12 de volta para o inglês (BT1 e BT2). As retrotraduções serão comparadas com o instrumento original item a item.
+
+\subsubsection{Etapa 4. Comitê de Especialistas}
+
+O comitê multidisciplinar será composto por cinco a sete membros cuja heterogeneidade garanta avaliação multidimensional, incluindo mestres de saberes quilombolas (um a dois agricultores com experiência mínima de 20 anos em sistemas agroecológicos tradicionais) responsáveis pela equivalência experiencial, pesquisadores doutores em agroecologia e etnoecologia (um a dois, com trajetória participativa) encarregados da pertinência científica, um especialista em psicometria e adaptação transcultural para assegurar o rigor do protocolo e gestores de PI e extensionistas (um a dois) voltados à perspectiva operacional e institucional.
+
+Fundamentada no princípio de soberania epistêmica \citep{Santos2007} e nas diretrizes ITC \citep{ITC2017}, a presença de mestres de saberes como membros plenos do comitê rompe a assimetria avaliativa convencional.
+
+O comitê avaliará cada item em quatro dimensões de equivalência (escala de 4 pontos) compreendendo as facetas semântica, idiomática, experiencial e conceitual. A robustez da concordância será quantificada pelo Índice de Validade de Conteúdo, definido na Equação~\ref{eq:cvi} como a razão entre avaliadores que atribuíram pontuação 3 e o total de avaliadores.
+
+\begin{equation}
+IVC_{item} = \frac{\text{nº de avaliadores que atribuíram 3}}{\text{nº total de avaliadores}}
+\label{eq:cvi}
+\end{equation}
+
+Itens com $IVC \geq 0,80$ serão aceitos sem ajustes, itens no intervalo $0,60 \leq IVC < 0,80$ serão revisados conforme sugestões do comitê e itens com $IVC < 0,60$ serão reformulados ou excluídos. A concordância interavaliadores será aferida por kappa de Fleiss \citep{Fleiss1971}. O comitê também identificará lacunas culturais e proporá itens suplementares que migrarão para a etapa de pré-teste.
+
+\subsubsection{Etapa 5. Pré-Teste}
+
+Versão pré-final será aplicada a 10 a 15 agricultores quilombolas de Jeremoabo (BA), selecionados por amostragem intencional com variabilidade em idade, gênero, escolaridade e sistema produtivo. A aplicação ocorrerá em formato de entrevista assistida e, após cada seção, conduzir-se-á \textbf{debriefing cognitivo} \citep{Willis2005} com perguntas padronizadas de compreensão, alternativas linguísticas e pertinência experiencial.
+
+Os indicadores quantitativos do pré-teste serão taxa de compreensão por item ($\geq$ 85\%), taxa de não-resposta ($\leq$ 15\%), tempo médio de aplicação e distribuição das respostas (efeito teto/piso).
+
+\subsubsection{Etapa 6. Consolidação}
+
+A versão final WOCAT-SLM-QBR será consolidada com dossiê completo de adaptação, compreendendo as versões T1, T2, T-12, BT1, BT2, atas do comitê, dados do pré-teste, manual de aplicação e a versão aprovada, com subsequente encaminhamento ao WOCAT Secretariat.
+
+% ============================================================
+% FASE 2: ELICITAÇÃO DELPHI
+% ============================================================
+\subsection{Fase 2. Elicitação Estruturada via Protocolo Delphi}
+
+\subsubsection{Composição do Painel}
+
+O painel reunirá 10 a 15 participantes selecionados por amostragem intencional \citep{Patton2015}, cuja heterogeneidade controlada combinará dois a três mestres de saberes quilombolas (experiência mínima de 20 anos) para ancoragem ênica, três a quatro pesquisadores doutores em agroecologia, etnoecologia, PI ou gestão da inovação para rigor analítico, dois a três técnicos extensionistas com experiência mínima de 5 anos em assessoria a comunidades tradicionais para perspectiva operacional e dois a três gestores de PI e bioeconomia vinculados a NITs, SEBRAE, INPI e secretarias territoriais para composição institucional.
+
+Transversalmente, os critérios de elegibilidade demandarão experiência mínima de 5 anos, reconhecimento pela comunidade epistêmica ou territorial e disponibilidade para três rodadas em quatro meses. Incluir mestres de saberes como especialistas de pleno direito ancora-se em \citep{Santos2007,Beaton2000}.
+
+\subsubsection{Estrutura das Rodadas}
+
+Na primeira rodada, dedicada à divergência e exploração, questionário aberto solicitará a enumeração de variáveis relevantes para avaliação de vulnerabilidade e salvaguarda de SSAT, organizadas nas seis dimensões de vulnerabilidade biocultural ($V_1$--$V_6$) derivadas do WOCAT-SLM-QBR (Tabela~\ref{tab:wocat_delphi}). As contribuições orais dos mestres de saberes serão transcritas por facilitadores e a consolidação será conduzida mediante análise de conteúdo \citep{Braun2006}.
+
+A segunda rodada operará na dimensão da convergência, com questionário estruturado avaliando cada proposição em escala Likert de 5 pontos para relevância, clareza e operacionalidade. Calcular-se-ão mediana ($Md$), intervalo interquartil ($IQR$), coeficiente de variação ($CV$) e frequência de respostas extremas.
+
+A terceira rodada consolidará o consenso mediante reenvio com feedback agregado (medianas, distribuição, posicionamento individual anonimizado), permitindo o ajuste final. O consenso operacional adotará $IQR \leq 1,0$ e $Md \geq 4,0$. Variáveis que não alcançarem consenso serão encaminhadas para deliberação qualitativa complementar.
+
+\subsubsection{Análise Estatística do Consenso}
+
+A convergência será aferida por mediana e intervalo interquartil (IQR) por variável e por rodada, observando-se a redução progressiva do IQR ao longo das rodadas. O coeficiente de concordância de Kendall ($W$) será empregado como indicador de consenso, adotando $W \geq 0{,}70$ como consenso forte \citep{Schmidt2014}. O Coeficiente de Validade de Conteúdo \citep{Hernandez-Nieto2002} deverá permanecer acima do limiar $CVC \geq 0{,}80$. A taxa de estabilidade entre rodadas 2 e 3 será avaliada pelo percentual de painelistas com ajuste $\pm 1$ ponto. Teste de Friedman ($\alpha = 0,05$) seguido de Dunn será aplicado quando pertinente.
+
+Todas as análises serão conduzidas em ambiente R versão 4.5.1 \citep{RCore2024}, empregando o pacote \texttt{irr} para cômputo de $W$ de Kendall e coeficientes de concordância, o pacote \texttt{PMCMRplus} para o teste de Friedman com comparações \textit{post hoc} de Dunn ajustadas por Bonferroni e funções nativas do pacote \texttt{stats} para estatísticas descritivas, enquanto o $CVC$ será calculado via rotina própria implementada conforme algoritmo de \citet{Hernandez-Nieto2002}.
+
+Para testar diretamente a hipótese de superioridade do método estruturado, os índices de consenso Delphi serão comparados com os da Rodada~1 (aberta e divergente), avaliando-se a redução progressiva do IQR e o incremento do coeficiente~$W$ de Kendall entre as rodadas.
+
+\subsection{Triangulação via Entrevistas Semiestruturadas}
+
+Oito a dez entrevistas com agricultores quilombolas de Jeremoabo, selecionados por saturação teórica \citep{Glaser1967}, complementarão os dados quantitativos. O roteiro abordará percepção sobre variáveis do Delphi, dimensões não contempladas, adequação da linguagem e hierarquização espontânea de prioridades.
+
+As entrevistas serão gravadas em áudio, transcritas integralmente e submetidas a análise temática \citep{Braun2006} em cinco fases (familiarização, codificação aberta, busca por temas, revisão e redação). A codificação será conduzida por dois pesquisadores independentes (kappa de Cohen $\geq 0{,}60$), e a triangulação será operacionalizada via matriz de correspondência entre variáveis validadas e categorias temáticas emergentes.
+
+\subsection{Aspectos Éticos}
+
+O projeto será submetido ao Comitê de Ética em Pesquisa da UFS (Resoluções CNS nº~466/2012 e nº~510/2016). Todos os participantes assinarão consentimento livre, prévio e informado. Os mestres de saberes integrantes do comitê serão reconhecidos como coautores do instrumento. Dados sensíveis serão tratados conforme Protocolo de Nagoia e Lei nº~13.123/2015, com devolutiva das sínteses às comunidades.
+
+
+\section{Resultados Esperados e Discussão}
+\label{sec:results_discussion}
+
+\subsection{Produtos da Adaptação Transcultural}
+
+Espera-se como produto primário a versão WOCAT-SLM-QBR, instrumento adaptado transculturalmente para o contexto quilombola brasileiro, contendo itens traduzidos e adaptados acrescidos de itens suplementares culturalmente específicos, com IVC global $\geq$~0,90 e kappa de Fleiss $\geq$~0,75. O dossiê de adaptação, compreendendo relatórios T1/T2, retrotraduções, atas do comitê, planilhas do pré-teste e manual de aplicação, constituirá referência replicável para adaptações em outros contextos de comunidades tradicionais brasileiras (indígenas, ribeirinhas, caiçaras, fundo de pasto).
+
+O mapeamento de lacunas culturais deverá identificar dimensões não contempladas pelo WOCAT original, esperando-se ao menos as dimensões espiritual-ritual, de transmissão intergeracional por oralidade e de coletividade associada a bens comuns. As variáveis correspondentes a essas dimensões serão integradas como itens suplementares nas dimensões $V_1$--$V_6$ pertinentes, em vez de constituírem dimensões autônomas. A emergência desses itens tende a corroborar a limitação inerente a abordagens puramente \textit{etic}, na medida em que frameworks universalistas carregam pressupostos culturais que operam como ``pontos cegos'' quando transplantados para ontologias distintas \citep{Herdman1999}.
+
+\subsection{Produtos da Elicitação Delphi}
+
+Prevê-se um conjunto validado de 20 a 30 variáveis linguísticas, acompanhadas de definições operacionais consensuadas e organizadas nas seis dimensões de vulnerabilidade biocultural ($V_1$--$V_6$) derivadas da meta-análise prévia. Cada variável disporá de ficha técnica contendo estatísticas descritivas ($Md$, $IQR$) e índices de consenso ($W$, $CVC$), com mapeamento para os indicadores do Índice de Salvaguarda Biocultural (ISB).
+
+Espera-se igualmente evidência empírica de superioridade do método estruturado sobre técnicas não estruturadas, quantificada pela evolução dos coeficientes de concordância entre a Rodada~1 (aberta) e as Rodadas~2--3 (estruturadas), com $W \geq 0,70$ e $CVC \geq 0,80$ ao término do protocolo. Essa integração sequencial entre adaptação transcultural e elicitação Delphi responde a lacuna identificada tanto na gestão da inovação \citep{Tidd2005} quanto na economia de ativos intangíveis \citep{Lev2001}, dado que inexiste cadeia metodológica conectando rigor instrumental com consenso auditável sem sacrificar legitimidade cultural junto aos detentores dos saberes. Pelo prisma da Teoria dos Recursos da Firma \citep{Barney1991}, as variáveis elicitadas operacionalizarão os atributos VRIN em dimensões mensuráveis, viabilizando que CQ demonstrem o valor estratégico de seus ativos intangíveis, pré-requisito para negociações de repartição de benefícios, certificação de produtos e proteção jurídica via indicações geográficas ou marcas coletivas \citep{Belletti2015}.
+
+\subsection{Triangulação e Validade Ecológica}
+
+A matriz de correspondência entre consenso técnico (Delphi) e percepção comunitária (entrevistas) fornecerá base de validade ecológica, permitindo verificar se o consenso especializado preserva coerência com as prioridades percebidas pelas comunidades. A inclusão de mestres de saberes quilombolas como membros plenos tanto do comitê de adaptação quanto do painel Delphi representa inovação metodológica alinhada ao paradigma da soberania epistêmica \citep{Santos2007}, na medida em que os detentores de saberes tradicionais passam a coautores do instrumento e do consenso, exercendo agência sobre como sua realidade será representada e mensurada.
+
+\subsection{Contribuições Esperadas}
+
+A articulação entre protocolo de adaptação e princípios ISO~30401 (Gestão do Conhecimento) pode oferecer contribuição teórica à literatura de gestão da propriedade intelectual em contextos comunitários. Ao documentar cada decisão com rastreabilidade, o dossiê de adaptação cria infraestrutura de metadados que atende simultaneamente requisitos de governança do conhecimento \citep{ISO30401} e demandas de proteção de conhecimentos tradicionais associados à biodiversidade, posicionando o estudo na interface entre psicometria transcultural e gestão estratégica de PI \citep{Teece1986,ISO56005}.
+
+Na arquitetura mais ampla do programa de pesquisa, o presente estudo opera como fundação metodológica. O instrumento culturalmente calibrado e as variáveis consensuadas alimentarão diretamente as funções de pertinência e regras SE-ENTÃO do sistema fuzzy Mamdani em estudo subsequente. Cada variável do ISB terá origem documentada em adaptação transcultural e consenso especializado, conferindo rastreabilidade ao modelo \citep{Costanza1997} e atendendo à cadeia de evidências: WOCAT original $\rightarrow$ WOCAT-SLM-QBR $\rightarrow$ consenso Delphi $\rightarrow$ meta-análise $\rightarrow$ TRI $\rightarrow$ modelo fuzzy. O manual de operacionalização do protocolo integrado adaptação-Delphi documentará cada decisão crítica com granularidade suficiente para replicação independente.
+
+
+\section{Considerações Finais}
+\label{sec:conclusion}
+
+Este estudo propõe protocolo integrado de adaptação transcultural do questionário WOCAT-SLM para comunidades quilombolas brasileiras, complementado por elicitação estruturada via Delphi e triangulação qualitativa, com o objetivo de converter saberes tácitos em variáveis computacionalmente processáveis organizadas nas seis dimensões de vulnerabilidade biocultural ($V_1$--$V_6$). Ao articular rigor psicométrico, consenso auditável e legitimidade cultural em cadeia metodológica documentada, o protocolo pode contribuir para o campo da economia ecológica ao oferecer referência replicável de valoração alternativa de riqueza biocultural em comunidades tradicionais. As variáveis validadas constituirão insumo direto para a construção do Índice de Salvaguarda Biocultural (ISB) via modelagem fuzzy em estudo subsequente, completando a cadeia de evidências WOCAT $\rightarrow$ WOCAT-SLM-QBR $\rightarrow$ Delphi $\rightarrow$ ISB.
+
+
+%% References with BibTeX database:
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{references}
+
+%% Apêndice — Questionário WOCAT-SLM traduzido
+\input{appendix-wocat}
+
+\end{document}

@@ -1086,9 +1086,9 @@ ________________________________________
 
 ---
 
-# 9. Seção Suplementar — Itens para Avaliação de Vulnerabilidade Biocultural (V1–V6)
+# 9. Seção Suplementar — Itens para Avaliação de Vulnerabilidade Biocultural (V1–V8)
 
-*Esta seção contém itens suplementares não cobertos pelo questionário WOCAT original, desenvolvidos para operacionalizar as seis dimensões de vulnerabilidade biocultural ($V_1$–$V_6$) em contexto de comunidades quilombolas. Os itens estão organizados em três camadas de coleta conforme a natureza da variável.*
+*Esta seção reúne itens suplementares priorizados para operacionalizar a arquitetura atual de oito dimensões de vulnerabilidade biocultural ($V_1$–$V_8$) em contexto de comunidades quilombolas. Os itens abaixo concentram as lacunas que o WOCAT original não cobre com densidade suficiente, sobretudo em V1–V5. As dimensões V6–V8 são majoritariamente capturadas por seções originais do instrumento, com apoio de regras de codificação e mediação de aplicação em campo.*
 
 ---
 

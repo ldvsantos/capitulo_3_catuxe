@@ -1,0 +1,9 @@
+\babel@toc {brazilian}{}\relax 
+\contentsline {section}{\numberline {1}V1 --- Erosão Intergeracional e Migração}{2}{section.1}%
+\contentsline {section}{\numberline {2}V2 --- Complexidade e Singularidade Biocultural}{2}{section.2}%
+\contentsline {section}{\numberline {3}V3 --- Status de Documentação}{3}{section.3}%
+\contentsline {section}{\numberline {4}V4 --- Vulnerabilidade Jurídica e Fundiária}{4}{section.4}%
+\contentsline {section}{\numberline {5}V5 --- Organização Social e Governança}{5}{section.5}%
+\contentsline {section}{\numberline {6}V6 --- Vitalidade Linguística}{6}{section.6}%
+\contentsline {section}{\numberline {7}V7 --- Integração ao Mercado}{6}{section.7}%
+\contentsline {section}{\numberline {8}V8 --- Exposição Climática}{7}{section.8}%

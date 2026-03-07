@@ -26,21 +26,23 @@ def apply_border(ws, row, cols):
     for c in range(1, cols + 1):
         ws.cell(row=row, column=c).border = thin_border
 
-# ── Dados das dimensões ──────────────────────────────────
+# ── Dados das dimensões (arquitetura V1–V8) ──────────────
 dimensions = [
     {
         "code": "V1",
-        "name": "Erosão Intergeracional",
+        "name": "Erosão Intergeracional e Migração",
         "definition": (
             "Risco de descontinuidade na transmissão vertical do conhecimento tradicional "
-            "entre gerações dentro da comunidade. Caracteriza-se pela redução progressiva do "
-            "número de jovens que dominam saberes e práticas agrícolas tradicionais, pela diminuição "
-            "da frequência de eventos de ensino-aprendizagem intergeracional (rodas de conversa, "
-            "acompanhamento na roça, mutirões com aprendizes) e pela perda de significados rituais, "
-            "espirituais ou cosmológicos vinculados às práticas de manejo. Manifesta-se quando o "
-            "saber permanece restrito a anciãos sem mecanismos ativos de repasse, quando modalidades "
-            "orais de transmissão são substituídas por abandono ou quando a dimensão espiritual da "
-            "prática se dissipa por desinteresse ou pressão religiosa externa."
+            "entre gerações, agravado por dinâmicas de êxodo rural e migração juvenil. "
+            "Caracteriza-se pela redução progressiva do número de jovens que dominam saberes "
+            "e práticas agrícolas tradicionais, pela diminuição da frequência de eventos de "
+            "ensino-aprendizagem intergeracional (rodas de conversa, acompanhamento na roça, "
+            "mutirões com aprendizes) e pela perda de significados rituais, espirituais ou "
+            "cosmológicos vinculados às práticas de manejo. Manifesta-se quando o saber "
+            "permanece restrito a anciãos sem mecanismos ativos de repasse, quando modalidades "
+            "orais de transmissão são substituídas por abandono, quando a dimensão espiritual "
+            "da prática se dissipa por desinteresse ou pressão externa, ou quando a saída de "
+            "jovens para centros urbanos interrompe a cadeia de sucessão do conhecimento."
         ),
         "items": [
             ("9.1.1", "Qual a proporção de jovens (<35 anos) que dominam esta prática/saber na comunidade?\n(Nenhum / Poucos <25% / Alguns 25–50% / A maioria 50–75% / Quase todos >75%)"),
@@ -52,47 +54,33 @@ dimensions = [
     },
     {
         "code": "V2",
-        "name": "Complexidade Biocultural",
+        "name": "Complexidade e Singularidade Biocultural",
         "definition": (
-            "Riqueza e profundidade das interações ecológicas codificadas nos sistemas agrícolas "
-            "tradicionais. Refere-se à diversidade de variedades locais (crioulas) cultivadas ou "
-            "manejadas, às interações solo-planta-clima reconhecidas e operacionalizadas pelo agricultor "
-            "segundo taxonomia êmica (local), e à agrobiodiversidade mantida pelo sistema de manejo "
-            "tradicional. Manifesta-se na capacidade do agricultor de nomear, classificar e associar "
-            "variedades a tipos específicos de solo e épocas de plantio segundo lógica própria, e na "
-            "manutenção de amplo repertório de espécies e variedades que conferem resiliência ao sistema. "
-            "A perda de complexidade biocultural ocorre quando variedades locais são substituídas por "
-            "cultivares comerciais, quando a etnotaxonomia se simplifica ou quando as regras tradicionais "
-            "de associação solo-planta deixam de ser praticadas."
+            "Riqueza, profundidade e exclusividade geográfica das interações ecológicas "
+            "codificadas nos sistemas agrícolas tradicionais. Integra dois componentes "
+            "complementares. O primeiro refere-se à diversidade de variedades locais (crioulas) "
+            "cultivadas ou manejadas, às interações solo-planta-clima reconhecidas pelo agricultor "
+            "segundo taxonomia êmica (local) e à agrobiodiversidade mantida pelo sistema de manejo "
+            "tradicional. O segundo componente refere-se à exclusividade geográfica dessas práticas, "
+            "variedades e saberes em relação a outras comunidades da região, ou seja, ao grau em que "
+            "determinados conhecimentos, cultivares ou técnicas são endêmicos de uma comunidade "
+            "específica e dependem de condições ambientais particulares do local (microclima, solo, "
+            "hidrologia, vegetação nativa). A singularidade territorial é operacionalizada pela "
+            "beta-diversidade de práticas entre comunidades e pela proporção de práticas exclusivas. "
+            "Quanto maior a singularidade, maior o risco de perda irreversível caso a comunidade "
+            "abandone a prática, pois não há redundância geográfica."
         ),
         "items": [
             ("9.3.1", "Inventário de variedades locais: para cada cultura principal, listar todas as variedades locais (crioulas, tradicionais) cultivadas ou conhecidas pelo informante, usando nomes locais. Registrar: cultura, nome da variedade, origem/história e uso principal."),
             ("9.3.2", "Classificação êmica de solos: registrar como o agricultor classifica os tipos de solo do território, usando a terminologia local (nome local, características segundo o agricultor, culturas associadas). O pesquisador indica correspondência pedológica aproximada."),
             ("9.3.3", "O agricultor segue regras de associação entre tipo de solo, variedade cultivada e época de plantio baseadas em conhecimento tradicional?\n(Não / Sim). Se sim, descrever até 3 regras principais."),
-        ]
-    },
-    {
-        "code": "V3",
-        "name": "Singularidade Territorial",
-        "definition": (
-            "Exclusividade geográfica das práticas, variedades e saberes agrícolas tradicionais em "
-            "relação a outras comunidades da região. Refere-se ao grau em que determinados conhecimentos, "
-            "cultivares ou técnicas de manejo são endêmicos de uma comunidade específica (isto é, não "
-            "ocorrem em outros territórios) e à dependência desses saberes de condições ambientais "
-            "particulares do local (microclima, solo, hidrologia, vegetação nativa). A singularidade "
-            "territorial é operacionalizada pela beta-diversidade de práticas entre comunidades (índices "
-            "de Jaccard ou Bray-Curtis) e pela proporção de práticas exclusivas. Quanto maior a "
-            "singularidade, maior o risco de perda irreversível caso a comunidade abandone a prática, "
-            "pois não há redundância geográfica."
-        ),
-        "items": [
             ("9.4.1", "Até onde o agricultor sabe, esta prática/variedade existe em outras comunidades da região?\n(Sim, é comum / Existe em algumas comunidades / Só existe nesta comunidade / Não sabe)"),
             ("9.4.2", "Esta prática depende de condições ambientais específicas deste território (tipo de solo, microclima, água, vegetação nativa)?\n(Não, pode ser aplicada em qualquer lugar / Parcialmente / Sim, totalmente, só funciona aqui)"),
             ("9.4.3", "Inventário comparativo entre comunidades: para cada prática/saber documentado, indicar presença ou ausência em cada comunidade visitada (preenchido pelo pesquisador após levantamento multi-sítio)."),
         ]
     },
     {
-        "code": "V4",
+        "code": "V3",
         "name": "Status de Documentação",
         "definition": (
             "Grau de registro formal dos saberes e práticas agrícolas tradicionais da comunidade. "
@@ -102,7 +90,7 @@ dimensions = [
             "mídias, falecimento de informantes-chave ou falta de infraestrutura de armazenamento. Um "
             "saber com baixo status de documentação é aquele que existe apenas na memória oral de poucos "
             "indivíduos, sem nenhum tipo de registro formal, tornando-o vulnerável à perda silenciosa e "
-            "irreversível. A dimensão V4 funciona como diagnóstico de urgência: quanto menor o status de "
+            "irreversível. A dimensão V3 funciona como diagnóstico de urgência: quanto menor o status de "
             "documentação, mais prioritária a ação de salvaguarda."
         ),
         "items": [
@@ -112,8 +100,8 @@ dimensions = [
         ]
     },
     {
-        "code": "V5",
-        "name": "Vulnerabilidade Jurídica",
+        "code": "V4",
+        "name": "Vulnerabilidade Jurídica e Fundiária",
         "definition": (
             "Exposição dos saberes e práticas agrícolas tradicionais a apropriação indevida por terceiros, "
             "decorrente da ausência ou insuficiência de instrumentos jurídicos de proteção. Abrange a "
@@ -134,8 +122,8 @@ dimensions = [
         ]
     },
     {
-        "code": "V6",
-        "name": "Organização Social",
+        "code": "V5",
+        "name": "Organização Social e Governança",
         "definition": (
             "Vitalidade das estruturas comunitárias de governança que sustentam a manutenção e a "
             "transmissão dos saberes agrícolas tradicionais. Refere-se à existência de mestres de saberes "
@@ -153,6 +141,67 @@ dimensions = [
             ("9.2.2", "Com que frequência ocorrem eventos coletivos relacionados a este saber (mutirões, trocas de sementes, feiras de agrobiodiversidade, rodas de prosa, encontros intercomunitários)?\n(Nunca / Raramente <1x/ano / Anualmente / Semestralmente / Mensalmente ou mais)"),
             ("9.2.3", "A comunidade mantém intercâmbio deste saber com outras comunidades quilombolas ou tradicionais?\n(Não / Sim, ocasionalmente, contato informal / Sim, regularmente, rede organizada)\nSe sim, especificar comunidades ou redes."),
             ("9.2.4", "Quem participa das decisões sobre o manejo desta prática?\n□ Predominantemente mulheres □ Predominantemente homens □ Ambos equilibrado □ Conselhos de anciãos □ Assembleia comunitária □ Outro\nQuem detém o conhecimento principal?\n□ Predominantemente mulheres □ Predominantemente homens □ Ambos"),
+        ]
+    },
+    {
+        "code": "V6",
+        "name": "Vitalidade Linguística",
+        "definition": (
+            "Grau de manutenção e transmissão da língua ou dialeto tradicional da comunidade, "
+            "com ênfase na retenção do léxico etnotaxonômico vinculado às práticas de manejo "
+            "agrícola e ambiental. Refere-se à proficiência geracional na língua ou falar local "
+            "(incluindo variantes do português quilombola, léxico de origem africana, vocabulário "
+            "ritual), à frequência de uso dessa língua em contextos de prática agrícola e "
+            "transmissão de saberes, e à preservação de termos técnicos tradicionais para solos, "
+            "plantas, animais, fenômenos climáticos e ciclos produtivos. A erosão linguística "
+            "compromete a transmissão de saberes codificados em categorias êmicas que não possuem "
+            "equivalente direto na língua dominante. A dimensão V6 é parcialmente capturada pelas "
+            "seções WOCAT originais (§5.6, §6.1), mas requer módulo focal complementar para aferir "
+            "a profundidade do uso linguístico-cognitivo."
+        ),
+        "items": [
+            ("9.7.1", "A comunidade possui língua, dialeto ou falar tradicional distinto do português padrão (p.ex. léxico de origem africana, vocabulário ritual, variantes fonológicas próprias)?\n(Não / Sim, resíduo lexical apenas / Sim, falar ativo em parte da comunidade / Sim, falar ativo na maioria)"),
+            ("9.7.2", "Qual a proporção de jovens (<35 anos) que compreendem e utilizam o vocabulário tradicional associado às práticas de manejo (nomes de solos, plantas, épocas de plantio, técnicas)?\n(Nenhum / Poucos <25% / Alguns 25–50% / A maioria 50–75% / Quase todos >75%)"),
+            ("9.7.3", "Durante as atividades agrícolas e de manejo, qual língua ou vocabulário predomina na comunicação entre gerações?\n(Apenas português padrão / Maioria português com termos tradicionais esporádicos / Mistura equilibrada / Predominância do falar tradicional)"),
+        ]
+    },
+    {
+        "code": "V7",
+        "name": "Integração ao Mercado",
+        "definition": (
+            "Grau de inserção comercial dos produtos e práticas agrícolas da comunidade e sua "
+            "influência sobre a manutenção ou substituição de repertórios bioculturais locais. "
+            "Refere-se à proporção de produção destinada à venda versus autoconsumo, à adoção "
+            "de cultivares comerciais em substituição a variedades crioulas, à dependência de "
+            "insumos externos e à monetização de práticas antes não comerciais. Comunidades com "
+            "alta integração ao mercado podem abandonar variedades e técnicas tradicionais de "
+            "menor rendimento comercial, reduzindo a agrobiodiversidade funcional do sistema. "
+            "A dimensão V7 é majoritariamente capturada pelas seções originais do WOCAT "
+            "(§5.6, §5.9, §6.1, §6.5) e não requer bloco suplementar extenso, mas itens de "
+            "verificação permitem ao juiz avaliar a adequação dessa cobertura."
+        ),
+        "items": [
+            ("9.8.1", "Qual a proporção aproximada da produção agrícola da família/comunidade destinada à venda (mercado, feira, atravessador)?\n(Nenhuma, 100% autoconsumo / Pouca <25% / Moderada 25–50% / Maioria 50–75% / Quase toda >75%)"),
+            ("9.8.2", "Nos últimos 10 anos, houve substituição de variedades crioulas por cultivares comerciais?\n(Não / Sim, parcialmente / Sim, predominantemente)\nSe sim, indicar culturas afetadas e motivo principal."),
+        ]
+    },
+    {
+        "code": "V8",
+        "name": "Exposição Climática",
+        "definition": (
+            "Sensibilidade do sistema agrícola tradicional a variações climáticas e eventos "
+            "extremos (seca prolongada, ondas de calor, chuvas concentradas, geadas atípicas). "
+            "Refere-se à percepção do agricultor sobre mudanças na regularidade das chuvas e "
+            "temperaturas, à frequência e severidade de perdas produtivas atribuídas a eventos "
+            "climáticos e à existência de estratégias adaptativas tradicionais (mudança de época "
+            "de plantio, seleção de variedades tolerantes, diversificação de cultivos). A dimensão "
+            "V8 é majoritariamente operacionalizada pelas seções climáticas originais do WOCAT "
+            "(§5.1, §5.4, §6.3) e não requer bloco suplementar extenso, mas itens de verificação "
+            "permitem ao juiz avaliar a adequação dessa cobertura."
+        ),
+        "items": [
+            ("9.9.1", "Na percepção do agricultor, o regime de chuvas e as temperaturas mudaram nos últimos 10–20 anos?\n(Não percebeu mudança / Sim, mudança leve / Sim, mudança forte)\nSe sim, descrever as principais mudanças percebidas."),
+            ("9.9.2", "Nos últimos 5 anos, quantas vezes a produção foi severamente afetada por eventos climáticos (seca, chuva excessiva, calor extremo, geada)?\n(Nenhuma / 1–2 vezes / 3–4 vezes / 5 ou mais vezes)\nEvento mais grave: _______________"),
         ]
     },
 ]
@@ -176,7 +225,7 @@ row = 1
 ws.cell(row=row, column=1, value="Ficha de Validade de Conteúdo, Juízes Experts").font = title_font
 ws.merge_cells("A1:F1")
 row = 2
-ws.cell(row=row, column=1, value="Questionário WOCAT-SLM-QBR: Itens Suplementares para Avaliação de Vulnerabilidade Biocultural (V1–V6)").font = subtitle_font
+ws.cell(row=row, column=1, value="Questionário WOCAT-SLM-QBR: Itens Suplementares para Avaliação de Vulnerabilidade Biocultural (V1–V8)").font = subtitle_font
 ws.merge_cells("A2:F2")
 
 row = 4
@@ -300,7 +349,7 @@ ws.merge_cells(start_row=row, start_column=1, end_row=row, end_column=6)
 row += 1
 
 general_qs = [
-    "Há alguma dimensão de vulnerabilidade biocultural relevante para SSAT quilombolas que não foi contemplada pelas seis dimensões (V1–V6)? Se sim, qual?",
+    "Há alguma dimensão de vulnerabilidade biocultural relevante para SSAT quilombolas que não foi contemplada pelas oito dimensões (V1–V8)? Se sim, qual?",
     "Os itens, no conjunto, são suficientes para operacionalizar as dimensões propostas?",
     "A linguagem dos itens é adequada para aplicação em contexto de comunidades quilombolas rurais do semiárido?",
     "Comentários gerais ou observações adicionais:",
@@ -337,6 +386,6 @@ for f in fields:
     row += 1
 
 # ── Salvar ──
-out_path = r"C:\Users\vidal\OneDrive\Documentos\13 - CLONEGIT\artigo_3_catuxe\CONSULTAS\Ficha_Validade_Conteudo_Juizes_V1V6.xlsx"
+out_path = r"C:\Users\vidal\OneDrive\Documentos\13 - CLONEGIT\artigo_3_catuxe\CONSULTAS\Ficha_Validade_Conteudo_Juizes_V1V8.xlsx"
 wb.save(out_path)
 print(f"Arquivo salvo em: {out_path}")

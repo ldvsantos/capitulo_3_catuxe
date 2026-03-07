@@ -1,0 +1,118 @@
+Diagnóstico de Variáveis Ausentes no Motor Fuzzy V1-V6 → ISB
+O modelo atual é eficiente em capturar o estado interno da vulnerabilidade biocultural (o que o sistema de saberes É), porém não modela forçantes exógenas (o que ATUA sobre o sistema). Do ponto de vista de engenharia de sistemas, o ISB avalia sensibilidade sem modelar exposição nem capacidade adaptativa, três pilares que frameworks de vulnerabilidade consolidados (IPCC AR5, Turner et al. 2003) consideram indissociáveis.
+
+Três variáveis emergem da literatura quantitativa com evidência suficiente para justificar inclusão como antecedentes adicionais (ou pelo menos como moderadores testáveis no painel Delphi).
+
+TIER 1 — Variáveis com forte argumento para inclusão
+1. Vitalidade Linguística (
+V
+L
+V 
+L
+​
+ )
+
+Cámara-Leret & Bascompte (2021, Nature Plants, já citado na tese) demonstraram que 75% do conhecimento medicinal tradicional está codificado em uma única língua, tornado sua perda irreversível com a morte do idioma. O índice VITEK (Vitality Index of Traditional Ecological Knowledge), desenvolvido por Zent & Maffi (2009) para o programa de indicadores globais IUCN/Terralingua, inclui explicitamente a dimensão linguística como componente independente da vitalidade do TEK (Sterling et al., 2017, Nature Ecol. Evol., 392 citações). A escala UNESCO EGIDS (Lewis & Simons, 2010) fornece métrica quantitativa 0-10 diretamente fuzzificável. No contexto quilombola, o saber etnobotânico opera sob categorias etnotaxonômicas próprias (o Art. 3 reconhece isso como "barreira semântica"), mas essa barreira NÃO é modelo como variável de entrada no fuzzy. A língua não é apenas o veículo de V1; é condição de existência de V2 e V3. Quando o vocabulário etnotaxonômico desaparece, o conhecimento que ele codifica desaparece com ele, independentemente dos níveis de V1-V6.
+
+Proxies fuzzificáveis: nível EGIDS (0-10), proporção de falantes fluentes com menos de 30 anos, número de termos etnotaxonômicos sem equivalente em português.
+
+2. Integração ao Mercado / Pressão de Mercantilização (
+V
+M
+V 
+M
+​
+ )
+
+A integração ao mercado é o preditor externo mais consistentemente documentado de erosão de TEK na literatura quantitativa. Godoy et al. (2005, PNAS) demonstraram correlação negativa entre renda monetária e competência etnobotânica em três sociedades indígenas. Reyes-García et al. (2005, 2013, 2016) confirmaram que a transição de economia de subsistência para economia de mercado reduz o repertório de manejo em 30-50% entre coortes. Moloise et al. (2025, Human Arenas) e Dungel et al. (2025) documentam o mesmo mecanismo em contextos pastoris. O WOCAT já capta "Orientação de mercado" (Subsistência/Misto/Comercial) na Seção 5, mas esse item NÃO alimenta nenhuma das seis dimensões V1-V6. É um dado coletado mas desperdiçado no pipeline para o ISB.
+
+Proxies fuzzificáveis: proporção da produção destinada à venda (%), renda de atividades não agrícolas (% da renda total), taxa de substituição de variedades crioulas por comerciais, distância ao mercado mais próximo (km).
+
+3. Exposição Climática / Estresse Ambiental (
+V
+C
+V 
+C
+​
+ )
+
+A mudança climática afeta a validade do sistema de saberes antes de afetar a vulnerabilidade das dimensões internas. Savo et al. (2016, Nature Climate Change) argumentam que quando o regime climático muda, calendários tradicionais de plantio, sinais fenológicos e seleção de variedades tornam-se imprecisos, erodindo a utilidade percebida do TEK, o que acelera seu abandono pela geração mais jovem. Bond et al. (2019, People and Nature, 52 citações) modelaram quantitativamente o deslocamento de relações bioculturais por redistribuição de espécies sob cenários climáticos. Osie (2025) quantificou resiliência climática de homegardens via diversidade funcional e capacidade adaptativa. O WOCAT tem Seção 6.3 inteira (Exposição e sensibilidade a mudanças climáticas) com itens sobre temperatura, precipitação e eventos extremos, mas esses dados NÃO alimentam V1-V6. Novamente, dado coletado mas não modelado.
+
+Proxies fuzzificáveis: SPI (Índice Padronizado de Precipitação), anomalia de temperatura sazonal (°C), frequência de eventos extremos (eventos/década), escore da Seção 6.3 do WOCAT.
+
+TIER 2 — Variáveis com argumento moderado (subindicadores ou moderadores)
+4. Migração Juvenil — V1 mede o RESULTADO (proporção de jovens que dominam o saber), mas a taxa de êxodo rural é o MECANISMO. Para predição via ML, o driver tem poder preditivo superior ao estado. Pode ser incorporado como subindicador de V1 em vez de nova dimensão.
+
+5. Governança de Gênero no Saber — Sibanda (2025, Agriculture & Food Security, já citada) demonstrou que mulheres detêm conhecimento especializado em sistemas de sementes com padrões de erosão distintos do agregado. O WOCAT Seção 9.2.4 já capta governança de gênero, mas não alimenta o fuzzy. Pode enriquecer V6.
+
+6. Conectividade de Redes de Sementes — Barrera & Ibarra (2024, Ecosystems and People) propõem métricas de teoria de grafos (densidade, centralidade, resiliência a remoção de nós) para avaliar resiliência de sistemas de troca de sementes. Propriedades topológicas são quantificáveis e predizem vulnerabilidade sistêmica. Pode enriquecer V2 ou V6.
+
+7. Segurança Fundiária — Garnett et al. (2018, Nature Sustainability) mostraram que terras indígenas com titulação segura têm desfechos de conservação 2-3x superiores. V5 foca em PI, não em terra. O WOCAT Seção 9.6.1 capta situação fundiária mas não alimenta V5. Poderia ser subindicador de V5.
+
+VITEK — Um framework paralelo que vale confrontar
+O Vitality Index of Traditional Ecological Knowledge (Zent & Maffi, 2009) decompõe a vitalidade do TEK em 5 sub-índices: Diversidade (riqueza de conhecimento), Equidade (distribuição na população), Proficiência (profundidade), Continuidade (transmissão intergeracional) e Cosmovisão (integração espiritual-ecológica). V1 mapeia para Continuidade, V2 para Diversidade, V3 parcialmente para Proficiência. Mas o VITEK tem um sub-índice de Cosmovisão (dimensão espiritual-ritual do manejo) que a tese reconhece como lacuna do WOCAT (bênçãos de sementes, ciclos lunares, proibições em datas sagradas) e cobre na Seção 9 suplementar, porém NÃO como variável de entrada no fuzzy. Sterling et al. (2017, Nature Ecology & Evolution, 392 citações) validaram o VITEK como indicador de sustentabilidade biocultural cross-cultural. A tese cita Zent & Maffi no arquivo DOIs_variaveis_V1_V6.tex mas não os incorpora formalmente.
+
+Implicação Arquitetural para o Motor Fuzzy
+A inclusão das três variáveis Tier 1 expandiria o sistema de 6 para 9 antecedentes (
+V
+1
+V 
+1
+​
+ -
+V
+6
+V 
+6
+​
+  + 
+V
+L
+V 
+L
+​
+ , 
+V
+M
+V 
+M
+​
+ , 
+V
+C
+V 
+C
+​
+ ), o que aumenta a base de regras de ~100 para ~200-300, mas preserva a tratabilidade computacional do Mamdani. Alternativamente, as três variáveis poderiam entrar como modificadores contextuais que ajustam pesos das regras existentes (meta-regras), evitando explosão combinatória. O painel Delphi (Rodada 1 divergente) seria o fórum adequado para testar a pertinência dessas variáveis junto aos painelistas.
+
+O argumento central é que o ISB atual opera como sensor de estado mas não como preditor de trajetória. Adicionar forçantes exógenas (mercado, clima) e o substrato linguístico que sustenta todo o sistema de saberes converteria o ISB de índice descritivo em ferramenta preditiva de risco.
+
+4. Arquitetura proposta: 8 dimensões para o motor fuzzy Mamdani
+Código	Dimensão	Proxies fuzzificáveis	Origem
+V1'	Erosão Intergeracional + Migração	Proporção jovens praticantes, taxa transmissão ativa, significado ritual, taxa de êxodo rural	V1 original + Tier 2 absorvido
+V2'	Complexidade e Singularidade Biocultural	Shannon H', variedades locais, beta-diversidade, endemismo, práticas exclusivas, conectividade de rede de sementes	V2 + V3 condensadas + Tier 2 absorvido
+V4	Status de Documentação	Registro formal, completude fichas, digitalização	Mantido inalterado
+V5'	Vulnerabilidade Jurídica e Fundiária	IG, marca coletiva, IPHAN, protocolo comunitário, situação fundiária, titulação	V5 original + Tier 2 absorvido
+V6'	Organização Social e Governança	Mestres ativos, eventos transmissão, redes cooperação, equidade de gênero	V6 original + Tier 2 absorvido
+V7	Vitalidade Linguística (
+V
+L
+V 
+L
+​
+ )	Nível EGIDS (0-10), proporção falantes <30 anos, termos etnotaxonômicos sem equivalente em português	NOVA
+V8	Integração ao Mercado (
+V
+M
+V 
+M
+​
+ )	Proporção produção para venda (%), renda não agrícola (%), taxa substituição variedades crioulas, distância ao mercado (km)	NOVA
+V9	Exposição Climática (
+V
+C
+V 
+C
+​
+ )	SPI, anomalia temperatura sazonal (°C), frequência eventos extremos (eventos/década), escore WOCAT §6.3	NOVA
+Isso dá 9 variáveis de entrada (V1' a V6' + V7, V8, V9), contra 6 originais. A base de regras sobe de ~100 para ~200-300, mantendo tratabilidade computacional via scikit-fuzzy.

@@ -1,0 +1,41 @@
+{
+  "title": "Adaptação transcultural do WOCAT-SLM e elicitação Delphi de variáveis de vulnerabilidade biocultural em comunidades quilombolas do semiárido brasileiro",
+  "description": "Dados, código-fonte e manuscrito do artigo que integra adaptação transcultural do questionário WOCAT-SLM via protocolo ITC e elicitação Delphi estruturada de variáveis de vulnerabilidade biocultural (V1–V8) em Comunidades Quilombolas do Território de Identidade Semiárido Nordeste II (Bahia), produzindo a versão WOCAT-SLM-QBR e conjunto validado de variáveis linguísticas para construção do Índice de Salvaguarda Biocultural (ISB).",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "creators": [
+    {
+      "name": "Oliveira, Catuxe Varjão de Santana",
+      "affiliation": "Programa de Pós-Graduação em Ciência da Propriedade Intelectual (PPGPI), Universidade Federal de Sergipe",
+      "orcid": ""
+    },
+    {
+      "name": "Santos, Luiz Diego Vidal",
+      "affiliation": "Universidade Estadual de Feira de Santana",
+      "orcid": ""
+    }
+  ],
+  "keywords": [
+    "Cross-cultural adaptation",
+    "Delphi method",
+    "WOCAT-SLM",
+    "Biocultural vulnerability",
+    "Sustainable land management",
+    "Quilombola communities",
+    "Intellectual property",
+    "Índice de Salvaguarda Biocultural"
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  },
+  "doi": "10.5281/zenodo.18901368",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ldvsantos/capitulo_3_catuxe",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "language": "por",
+  "access_right": "open"
+}

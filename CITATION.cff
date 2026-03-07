@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: >-
+  Adaptação transcultural do WOCAT-SLM e elicitação Delphi de
+  variáveis de vulnerabilidade biocultural em comunidades quilombolas
+  do semiárido brasileiro
+message: >-
+  Se você utilizar este dataset ou código, por favor cite conforme abaixo.
+type: dataset
+doi: 10.5281/zenodo.18901368
+authors:
+  - family-names: Oliveira
+    given-names: Catuxe Varjão de Santana
+    affiliation: >-
+      Programa de Pós-Graduação em Ciência da Propriedade Intelectual
+      (PPGPI), Universidade Federal de Sergipe
+    email: catuxe@academico.ufs.br
+  - family-names: Santos
+    given-names: Luiz Diego Vidal
+    affiliation: Universidade Estadual de Feira de Santana
+    email: ldvsantos@uefs.br
+repository-code: https://github.com/ldvsantos/capitulo_3_catuxe
+keywords:
+  - Cross-cultural adaptation
+  - Delphi method
+  - WOCAT-SLM
+  - Biocultural vulnerability
+  - Sustainable land management
+  - Quilombola communities
+  - Intellectual property
+  - Índice de Salvaguarda Biocultural
+license: CC-BY-4.0

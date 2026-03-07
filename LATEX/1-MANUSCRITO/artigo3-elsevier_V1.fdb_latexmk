@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex artigo3-elsevier_V1"] 1772920944.75498 "artigo3-elsevier_V1.aux" "artigo3-elsevier_V1.bbl" "artigo3-elsevier_V1" 1772920948.56354 0
-  "./references.bib" 1772836550 32780 4a27d38887c00f3ca5bccefc17fe2080 ""
+["bibtex artigo3-elsevier_V1"] 1772923202.22142 "artigo3-elsevier_V1.aux" "artigo3-elsevier_V1.bbl" "artigo3-elsevier_V1" 1772923207.07234 0
+  "./references.bib" 1772923163 35240 20696e35b61bb2de05a3c0ae192da6f8 ""
   "C:/Users/vidal/AppData/Local/Programs/MiKTeX/bibtex/bst/elsarticle/elsarticle-harv.bst" 1768130249 30002 8c3d766e7980d576fdc8329774bbf7b2 ""
-  "artigo3-elsevier_V1.aux" 1772920947 20059 6e7fed53b403625bb3eff7430b733a0e "pdflatex"
+  "artigo3-elsevier_V1.aux" 1772923205 20353 6625ac77b437cb0d587492ed012b51bd "pdflatex"
   (generated)
   "artigo3-elsevier_V1.bbl"
   "artigo3-elsevier_V1.blg"
   (rewritten before read)
-["pdflatex"] 1772920945.13698 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_3_catuxe/LATEX/1-MANUSCRITO/artigo3-elsevier_V1.tex" "artigo3-elsevier_V1.pdf" "artigo3-elsevier_V1" 1772920948.56438 0
+["pdflatex"] 1772923202.62769 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_3_catuxe/LATEX/1-MANUSCRITO/artigo3-elsevier_V1.tex" "artigo3-elsevier_V1.pdf" "artigo3-elsevier_V1" 1772923207.07347 0
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1772816671 176275 99b003ccec986b114e2c060f5b3d8d7f ""
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt0800.pk" 1770812277 15192 31d04049fddd16e392e8e7b71ebac00a ""
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1770803711 20028 3c70369d156c6dc78650601b69dcc84f ""
@@ -221,12 +221,12 @@
   "C:/Users/vidal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "SDlogo-3p.pdf" 1770548009 32832 4c44d6c52fa62ecd42842252126ea898 ""
   "appendix-wocat.tex" 1772882734 56218 70916ff074e810051c69a935d2dfbcfa ""
-  "artigo3-elsevier_V1.aux" 1772920947 20059 6e7fed53b403625bb3eff7430b733a0e "pdflatex"
-  "artigo3-elsevier_V1.bbl" 1772920945 33453 b0c76d7941400af24684203b582d62d0 "bibtex artigo3-elsevier_V1"
-  "artigo3-elsevier_V1.out" 1772920947 7801 cd6b9509cdbb84326fcae2241667b34e "pdflatex"
-  "artigo3-elsevier_V1.spl" 1772920945 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "artigo3-elsevier_V1.tex" 1772920904 53365 db192f7453bcd0f77a2cd2c7f1c4c664 ""
-  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_3_catuxe/LATEX/1-MANUSCRITO/artigo3-elsevier_V1.tex" 1772920904 53365 db192f7453bcd0f77a2cd2c7f1c4c664 ""
+  "artigo3-elsevier_V1.aux" 1772923205 20353 6625ac77b437cb0d587492ed012b51bd "pdflatex"
+  "artigo3-elsevier_V1.bbl" 1772923202 34396 cf0c51e0f8ef942349f2153931a8acf4 "bibtex artigo3-elsevier_V1"
+  "artigo3-elsevier_V1.out" 1772923205 7801 cd6b9509cdbb84326fcae2241667b34e "pdflatex"
+  "artigo3-elsevier_V1.spl" 1772923203 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "artigo3-elsevier_V1.tex" 1772922883 54477 97f751a191041eaca98154015571ece1 ""
+  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_3_catuxe/LATEX/1-MANUSCRITO/artigo3-elsevier_V1.tex" 1772922883 54477 97f751a191041eaca98154015571ece1 ""
   "ecrc.sty" 1770548009 9851 bd6cc48423129411a0ccc52c8fda0e99 ""
   "elsarticle.cls" 1770548009 26250 93bcb641d1d601908e89f8b8c60ceeeb ""
   "elsevier-logo-3p.eps" 1770548009 511887 311b16c64737353630a593ec1977f339 ""

@@ -301,6 +301,11 @@ A seleção de variáveis obedece ao critério de representatividade biocultural
     minimum height=0.55cm, text width=2.1cm, align=center, font=\footnotesize\bfseries},
   stepbox/.style={rectangle, rounded corners=2pt, draw=black!60, fill=white,
     minimum height=0.7cm, text width=1.85cm, align=center, font=\scriptsize},
+  decision/.style={diamond, draw=black!70, fill=orange!8, aspect=2.2,
+    minimum height=0.5cm, text width=1.6cm, align=center, font=\scriptsize,
+    inner sep=1pt},
+  classify/.style={rectangle, rounded corners=2pt, draw=black!50, fill=green!6,
+    minimum height=0.55cm, text width=2.6cm, align=center, font=\scriptsize},
   output/.style={rectangle, rounded corners=2pt, draw=black!80, fill=black!12,
     minimum height=0.7cm, text width=2.0cm, align=center,
     font=\scriptsize\bfseries},
@@ -331,10 +336,24 @@ A seleção de variáveis obedece ao critério de representatividade biocultural
 \draw[arr] (f2) -- (r1);
 \draw[arr] (r1) -- (r2);
 \draw[arr] (r2) -- (r3);
-% segunda linha fase 2
-\node[stepbox, below=0.55cm of r1]  (tr) {Triangulação\\Entrevistas\\($n=8$--10)};
+% ---- DECISÃO DE ESTABILIDADE ----
+\node[decision, below=0.55cm of r2] (stab) {Estabilidade\\${\geq}70\%$\\$(\pm 1\text{ pt})$?};
+\draw[arr] (r3.south) -- ++(0,-0.275) -| (stab.north);
+\node[font=\tiny, text=black!55, right=0.08cm of stab.east, anchor=west] {R2$\leftrightarrow$R3};
+% ---- CLASSIFICAÇÃO DE PARADA ----
+\node[classify, below=0.7cm of stab] (cls) {%
+  \textbf{Critérios de parada}\\[1pt]
+  IQR$\leq$1 + $Md{\geq}4$ + CVC${\geq}0{,}80$\\
+  $\rightarrow$ Consenso atingido\\[1pt]
+  $W{\geq}0{,}50$ mas IQR${>}1$\\
+  $\rightarrow$ Consenso parcial\\[1pt]
+  $W{<}0{,}50$ e IQR${>}1{,}5$\\
+  $\rightarrow$ Variável excluída};
+\draw[arr] (stab) -- (cls);
+% ---- TRIANGULAÇÃO E OUTPUT ----
+\node[stepbox, below=0.55cm of r1 |- cls.south]  (tr) {Triangulação\\Entrevistas\\($n=8$--10)};
 \node[output, right=of tr]      (iv) {20--30 Variáveis\\validadas $\rightarrow$ ISB};
-\draw[arr] (r3.south) -- ++(0,-0.275) -| (tr.north);
+\draw[arr] (cls.south) -- ++(0,-0.2) -| (tr.north);
 \draw[arr] (tr) -- (iv);
 % conector entre fases
 \draw[dashline] (e6.south) -- ++(0,-0.35) -| (f2.north);
@@ -344,11 +363,11 @@ A seleção de variáveis obedece ao critério de representatividade biocultural
     fit=(f1)(e1)(e2)(e3)(e4)(e5)(e6),
     inner xsep=4pt, inner ysep=6pt] {};
   \node[draw=black!25, rounded corners=4pt,
-    fit=(f2)(r1)(r2)(r3)(tr)(iv),
+    fit=(f2)(r1)(r2)(r3)(stab)(cls)(tr)(iv),
     inner xsep=4pt, inner ysep=6pt] {};
 \end{scope}
 \end{tikzpicture}
-\caption{Fluxograma do processo integrado de adaptação transcultural (Fase~1) e elicitação Delphi (Fase~2) do questionário WOCAT-SLM.}
+\caption{Fluxograma do processo integrado de adaptação transcultural (Fase~1) e elicitação Delphi (Fase~2) do questionário WOCAT-SLM, incluindo critérios de parada e classificação de consenso.}
 \label{fig:flowchart}
 \end{figure*}
 
@@ -417,7 +436,12 @@ A terceira rodada consolidará o consenso mediante reenvio com feedback agregado
 
 \subsubsection{Análise Estatística do Consenso}
 
-A convergência será aferida por mediana e intervalo interquartil (IQR) por variável e por rodada, observando-se a redução progressiva do IQR ao longo das rodadas. O coeficiente de concordância de Kendall ($W$) será empregado como indicador de consenso, adotando $W \geq 0{,}70$ como consenso forte \citep{Schmidt2014}. O Coeficiente de Validade de Conteúdo \citep{Hernandez-Nieto2002} deverá permanecer acima do limiar $CVC \geq 0{,}80$. A taxa de estabilidade entre rodadas 2 e 3 será avaliada pelo percentual de painelistas com ajuste $\pm 1$ ponto. Teste de Friedman ($\alpha = 0,05$) seguido de Dunn será aplicado quando pertinente.
+A convergência será aferida por mediana e intervalo interquartil (IQR) por variável e por rodada, observando-se a redução progressiva do IQR ao longo das rodadas. O coeficiente de concordância de Kendall ($W$) será empregado como indicador de consenso, adotando $W \geq 0{,}70$ como consenso forte \citep{Schmidt2014}. O Coeficiente de Validade de Conteúdo \citep{Hernandez-Nieto2002} deverá permanecer acima do limiar $CVC \geq 0{,}80$. A taxa de estabilidade entre rodadas 2 e 3 será avaliada pelo percentual de painelistas com ajuste $\pm 1$ ponto, adotando-se limiar mínimo de 70\% de painelistas estáveis como critério de convergência suficiente \citep{Dajani1979}. Teste de Friedman ($\alpha = 0,05$) seguido de Dunn será aplicado quando pertinente.
+
+\subsubsection{Critérios de Parada e Tratamento de Variáveis sem Consenso}
+\label{sec:delphi_parada}
+
+O protocolo Delphi adotará critérios de parada explícitos para assegurar rigor no encerramento das rodadas e tratamento sistemático de variáveis que não atinjam consenso. O processo será encerrado após a terceira rodada independentemente do nível de consenso atingido, conforme prática recomendada na literatura \citep{Diamond2014}. Variáveis que ao final da Rodada~3 satisfizerem simultaneamente $IQR \leq 1{,}0$, $Md \geq 4{,}0$ e $CVC \geq 0{,}80$ serão classificadas como ``consenso atingido'' e incorporadas ao instrumento ISB. Variáveis com $W \geq 0{,}50$ mas $IQR > 1{,}0$ serão classificadas como ``consenso parcial'' e retidas no instrumento com sinalização explícita de incerteza nos metadados, sendo submetidas a análise qualitativa complementar mediante triangulação com as entrevistas semiestruturadas. Variáveis com $W < 0{,}50$ e $IQR > 1{,}5$ serão classificadas como ``sem consenso'' e excluídas do ISB, permanecendo documentadas como candidatas para reavaliação em rodadas futuras caso novas evidências justifiquem sua reinclusão. A estabilidade entre rodadas será considerada insuficiente quando menos de 70\% dos painelistas mantiverem ajuste $\pm 1$ ponto entre R2 e R3 para uma variável específica, caso em que a variável será reclassificada como ``consenso instável'' mesmo que os limiares de $IQR$ e $Md$ tenham sido satisfeitos.
 
 Todas as análises serão conduzidas em ambiente R versão 4.5.1 \citep{RCore2024}, empregando o pacote \texttt{irr} para cômputo de $W$ de Kendall e coeficientes de concordância, o pacote \texttt{PMCMRplus} para o teste de Friedman com comparações \textit{post hoc} de Dunn ajustadas por Bonferroni e funções nativas do pacote \texttt{stats} para estatísticas descritivas, enquanto o $CVC$ será calculado via rotina própria implementada conforme algoritmo de \citet{Hernandez-Nieto2002}.
 

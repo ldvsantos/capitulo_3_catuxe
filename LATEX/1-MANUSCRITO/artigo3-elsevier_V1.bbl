@@ -1,4 +1,4 @@
-\begin{thebibliography}{80}
+\begin{thebibliography}{85}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -17,6 +17,17 @@
 \newblock \bibinfo{title}{Quilombolas e novas etnias}.
 \newblock \bibinfo{publisher}{Editora da Universidade Estadual do Amazonas},
   \bibinfo{address}{Manaus}.
+%Type = Book
+\bibitem[{{American Educational Research Association} et~al.(2018){American
+  Educational Research Association}, {American Psychological Association} and
+  {National Council on Measurement in Education}}]{Association2018}
+\bibinfo{author}{{American Educational Research Association}},
+  \bibinfo{author}{{American Psychological Association}},
+  \bibinfo{author}{{National Council on Measurement in Education}},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Standards for Educational and Psychological Testing}.
+\newblock \bibinfo{publisher}{American Educational Research Association},
+  \bibinfo{address}{Washington, DC}.
 %Type = Article
 \bibitem[{Balogun and Kalusopa(2021)}]{Balogun2021}
 \bibinfo{author}{Balogun, T.}, \bibinfo{author}{Kalusopa, T.},
@@ -105,6 +116,12 @@
 \newblock \bibinfo{journal}{Qualitative Research in Psychology}
   \bibinfo{volume}{3}, \bibinfo{pages}{77--101}.
 \newblock \DOIprefix\doi{10.1191/1478088706qp063oa}.
+%Type = Book
+\bibitem[{Brown(2015)}]{Brown2015}
+\bibinfo{author}{Brown, T.A.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Confirmatory Factor Analysis for Applied Research}.
+\newblock \bibinfo{edition}{2nd} ed., \bibinfo{publisher}{The Guilford Press},
+  \bibinfo{address}{New York}.
 %Type = Article
 \bibitem[{C{\'a}mara-Leret and Bascompte(2021)}]{CamaraLeret2021}
 \bibinfo{author}{C{\'a}mara-Leret, R.}, \bibinfo{author}{Bascompte, J.},
@@ -347,6 +364,13 @@
   (second edition)}.
 \newblock \bibinfo{note}{Available at: \url{https://www.intestcom.org/}}.
 %Type = Book
+\bibitem[{Kline(2016)}]{Kline2016PrinciplesLivros}
+\bibinfo{author}{Kline, R.B.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Principles and Practice of Structural Equation
+  Modeling}.
+\newblock \bibinfo{edition}{4th} ed., \bibinfo{publisher}{The Guilford Press},
+  \bibinfo{address}{New York}.
+%Type = Book
 \bibitem[{Kuhn(1962)}]{Kuhn1962}
 \bibinfo{author}{Kuhn, T.S.}, \bibinfo{year}{1962}.
 \newblock \bibinfo{title}{The Structure of Scientific Revolutions}.
@@ -534,6 +558,15 @@
   \bibinfo{volume}{9}, \bibinfo{pages}{751--773}.
 \newblock \DOIprefix\doi{10.18352/ijc.526}.
 %Type = Article
+\bibitem[{Raykov and Marcoulides(2016)}]{Raykov2016EstimationMeasures}
+\bibinfo{author}{Raykov, T.}, \bibinfo{author}{Marcoulides, G.A.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Scale reliability evaluation under multiple
+  assumption violations}.
+\newblock \bibinfo{journal}{Structural Equation Modeling: A Multidisciplinary
+  Journal} \bibinfo{volume}{23}, \bibinfo{pages}{302--313}.
+\newblock \DOIprefix\doi{10.1080/10705511.2014.938597}.
+%Type = Article
 \bibitem[{Rayne et~al.(2022)Rayne, Byrne and Rollins}]{Rayne2022}
 \bibinfo{author}{Rayne, A.}, \bibinfo{author}{Byrne, M.},
   \bibinfo{author}{Rollins, L.A.}, \bibinfo{year}{2022}.
@@ -596,6 +629,15 @@
 \newblock \bibinfo{journal}{Land Degradation \& Development}
   \bibinfo{volume}{23}, \bibinfo{pages}{160--174}.
 \newblock \DOIprefix\doi{10.1002/ldr.1069}.
+%Type = Article
+\bibitem[{Sellbom and Tellegen(2019)}]{Sellbom2019FactorRecommendations}
+\bibinfo{author}{Sellbom, M.}, \bibinfo{author}{Tellegen, A.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Factor analysis in psychological assessment research:
+  common pitfalls and recommendations}.
+\newblock \bibinfo{journal}{Psychological Assessment} \bibinfo{volume}{31},
+  \bibinfo{pages}{1428--1441}.
+\newblock \DOIprefix\doi{10.1037/pas0000623}.
 %Type = Article
 \bibitem[{Smeets and Weterings(1999)}]{Smeets1999}
 \bibinfo{author}{Smeets, E.}, \bibinfo{author}{Weterings, R.},

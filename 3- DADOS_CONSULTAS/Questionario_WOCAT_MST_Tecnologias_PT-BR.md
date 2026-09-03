@@ -1088,7 +1088,7 @@ ________________________________________
 
 # 9. Seção Suplementar — Itens para Avaliação de Vulnerabilidade Biocultural (V1–V8)
 
-*Esta seção reúne itens suplementares priorizados para operacionalizar a arquitetura atual de oito dimensões de vulnerabilidade biocultural ($V_1$–$V_8$) em contexto de comunidades quilombolas. Os itens abaixo concentram as lacunas que o WOCAT original não cobre com densidade suficiente, sobretudo em V1–V5. As dimensões V6–V8 são majoritariamente capturadas por seções originais do instrumento, com apoio de regras de codificação e mediação de aplicação em campo.*
+*Esta seção reúne itens suplementares priorizados para operacionalizar a arquitetura atual de oito dimensões de vulnerabilidade biocultural ($V_1$–$V_8$) em contexto de comunidades quilombolas. As Camadas 1 a 3 concentram as lacunas que o WOCAT original não cobre com densidade suficiente, sobretudo em $V_1$–$V_5$. A Camada 4 agrega módulos focais complementares para $V_6$–$V_8$, cuja captura permanece apoiada nas seções originais do instrumento e em regras de codificação e mediação de aplicação em campo.*
 
 ---
 
@@ -1137,7 +1137,7 @@ Comentários: ________________________________________
 
 ---
 
-### 9.2 Governança comunitária e capital social (V6 — Organização Social)
+### 9.2 Governança comunitária e capital social (V5 — Organização Social e Governança)
 
 **9.2.1 Mestres de saberes**
 
@@ -1182,7 +1182,7 @@ Quem detém o conhecimento principal desta prática?
 
 ## Camada 2 — Inventário etnobotânico e ecológico (respondido por agricultor + pesquisador em campo) 👤 📏
 
-### 9.3 Agrobiodiversidade e etnotaxonomia (V2 — Complexidade Biocultural)
+### 9.3 Agrobiodiversidade e etnotaxonomia (V2 — Complexidade e Singularidade Biocultural)
 
 **9.3.1 Inventário de variedades locais**
 
@@ -1222,7 +1222,7 @@ Se sim, descreva até 3 regras principais:
 
 ---
 
-### 9.4 Singularidade e exclusividade territorial (V3 — Singularidade Territorial)
+### 9.4 Singularidade e exclusividade territorial (V2 — Complexidade e Singularidade Biocultural, cont.)
 
 **9.4.1 Exclusividade da prática**
 
@@ -1252,7 +1252,7 @@ Se sim, especifique: ________________________________________
 
 ## Camada 3 — Auditoria documental e jurídico-institucional (preenchido pelo pesquisador/compilador) 📏
 
-### 9.5 Diagnóstico de déficit documental (V4 — Status de Documentação)
+### 9.5 Diagnóstico de déficit documental (V3 — Status de Documentação)
 
 **9.5.1 Registro formal prévio**
 
@@ -1294,7 +1294,7 @@ Se sim, descreva: ________________________________________
 
 ---
 
-### 9.6 Proteção jurídica e propriedade intelectual (V5 — Vulnerabilidade Jurídica)
+### 9.6 Proteção jurídica e propriedade intelectual (V4 — Vulnerabilidade Jurídica e Fundiária)
 
 **9.6.1 Situação fundiária da comunidade**
 
@@ -1337,6 +1337,68 @@ Há registro ou percepção de que saberes, variedades ou práticas da comunidad
 ○ Não ○ Sim ○ Suspeita, mas sem confirmação
 
 Se sim, descreva brevemente: ________________________________________
+
+---
+
+## Camada 4 — Módulos focais complementares (V6–V8)
+
+### 9.7 Vitalidade linguística (V6)
+
+**9.7.1 Existência de falar tradicional**
+
+A comunidade possui língua, dialeto ou falar tradicional distinto do português padrão (por exemplo, léxico de origem africana, vocabulário ritual, variantes fonológicas próprias)?
+
+○ Não ○ Sim, resíduo lexical apenas ○ Sim, falar ativo em parte da comunidade ○ Sim, falar ativo na maioria
+
+**9.7.2 Proficiência juvenil no vocabulário tradicional**
+
+Qual a proporção de jovens (< 35 anos) que compreendem e utilizam o vocabulário tradicional associado às práticas de manejo (nomes de solos, plantas, épocas de plantio, técnicas)?
+
+○ Nenhum ○ Poucos (< 25%) ○ Alguns (25–50%) ○ A maioria (50–75%) ○ Quase todos (> 75%)
+
+**9.7.3 Língua predominante nas atividades de manejo**
+
+Durante as atividades agrícolas e de manejo, qual língua ou vocabulário predomina na comunicação entre gerações?
+
+○ Apenas português padrão ○ Maioria português, com termos tradicionais esporádicos ○ Mistura equilibrada ○ Predominância do falar tradicional
+
+---
+
+### 9.8 Integração ao mercado (V7)
+
+**9.8.1 Proporção de produção comercializada**
+
+Qual a proporção aproximada da produção agrícola da família/comunidade destinada à venda (mercado, feira, atravessador)?
+
+○ Nenhuma (100% autoconsumo) ○ Pouca (< 25%) ○ Moderada (25–50%) ○ Maioria (50–75%) ○ Quase toda (> 75%)
+
+**9.8.2 Substituição de variedades crioulas**
+
+Nos últimos 10 anos, houve substituição de variedades crioulas por cultivares comerciais?
+
+○ Não ○ Sim, parcialmente ○ Sim, predominantemente
+
+Se sim, indicar culturas afetadas e motivo principal: ________________________________________
+
+---
+
+### 9.9 Exposição climática (V8)
+
+**9.9.1 Percepção de mudanças climáticas**
+
+Na percepção do agricultor, o regime de chuvas e as temperaturas mudaram nos últimos 10–20 anos?
+
+○ Não percebeu mudança ○ Sim, mudança leve ○ Sim, mudança forte
+
+Se sim, descrever as principais mudanças percebidas: ________________________________________
+
+**9.9.2 Frequência de perdas por eventos climáticos**
+
+Nos últimos 5 anos, quantas vezes a produção foi severamente afetada por eventos climáticos (seca, chuva excessiva, calor extremo, geada)?
+
+○ Nenhuma ○ 1–2 vezes ○ 3–4 vezes ○ 5 ou mais vezes
+
+Evento mais grave: ________________________________________
 
 ---
 

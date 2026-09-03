@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.23)  14 MAR 2026 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.8.18)  3 SEP 2026 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,54 +1116,51 @@ Package: lineno 2025/05/13 line numbers on paragraphs v5.5
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count355
-) (artigo3-elsevier_V1.aux
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 16.
-)
+) (artigo3-elsevier_V1.aux)
 \openout1 = `artigo3-elsevier_V1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 141.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 146.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-141.
+146.
 
 (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 146.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-141.
+146.
 
 (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 146.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-141.
+146.
 
 (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 146.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-41.
+46.
 
 (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 
 (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1180,14 +1177,18 @@ ii
 \makeMPintoPDFobject=\count361
 \everyMPtoPDFconversion=\toks43
 )
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\vidal\AppData\Local\Programs\MiKTeX357
+\nofMParguments=\count358
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count359
+\MPscratchDim=\dimen310
+\MPnumerator=\count360
+\makeMPintoPDFobject=\count361
+\everyMPtoPDFconversion=\toks43
+) (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -1226,286 +1227,44 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Encoding Info:    Redeclaring text command \k (encoding T1) on input line
- 141.
-Package hyperref Info: Link coloring OFF on input line 141.
+LaTeX Encoding Info:    Redeclaring text command \k (encoding T1) on input line 146.
+Package hyperref Info: Link coloring OFF on input line 146.
 (artigo3-elsevier_V1.out) (artigo3-elsevier_V1.out)
 \@outlinefile=\write5
 \openout5 = `artigo3-elsevier_V1.out'.
 
+ (appendix-wocat.tex
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 180.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-81.
-
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 9.
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9.
+ (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-81.
-
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 9.
+ (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 181
-.
-
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+ (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 181
-.
-
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+ (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-81.
-
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9.
+ (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
-82.
 
+Package natbib Warning: Citation `Liniger2019' on page 1 undefined on input line 17.
+
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 31.
 (C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 188.
-LaTeX Font Info:    Calculating math sizes for size <9.09996> on input line 188
-.
-LaTeX Font Info:    Trying to load font information for T1+txss on input line 1
-93.
+) [1{C:/Users/vidal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
-(C:\Users\vidal\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txss.fd
-File: t1txss.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 193.
-Package epstopdf Info: Source file: <elsevier-logo-3p.eps>
-(epstopdf)                    date: 2026-02-08 07:53:29
-(epstopdf)                    size: 511887 bytes
-(epstopdf)             Output file: <elsevier-logo-3p-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-03-06 18:40:53
-(epstopdf)                    size: 77210 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=elsevier-logo-3p-eps
--converted-to.pdf elsevier-logo-3p.eps>
-(epstopdf)             \includegraphics on input line 197.
-Package epstopdf Info: Output file is already uptodate.
-<elsevier-logo-3p-eps-converted-to.pdf, id=140, 54.2025pt x 60.225pt>
-File: elsevier-logo-3p-eps-converted-to.pdf Graphic file (type pdf)
-<use elsevier-logo-3p-eps-converted-to.pdf>
-Package pdftex.def Info: elsevier-logo-3p-eps-converted-to.pdf  used on input l
-ine 197.
-(pdftex.def)             Requested size: 54.20236pt x 60.22484pt.
-<SDlogo-3p.pdf, id=141, 169.8345pt x 33.9669pt>
-File: SDlogo-3p.pdf Graphic file (type pdf)
-<use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 197.
-(pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 17.09995pt on input line 197.
-Package epstopdf Info: Source file: <elsevier-logo-3p.eps>
-(epstopdf)                    date: 2026-02-08 07:53:29
-(epstopdf)                    size: 511887 bytes
-(epstopdf)             Output file: <elsevier-logo-3p-eps-converted-to.pdf>
-(epstopdf)                    date: 2026-03-06 18:40:53
-(epstopdf)                    size: 77210 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=elsevier-logo-3p-eps
--converted-to.pdf elsevier-logo-3p.eps>
-(epstopdf)             \includegraphics on input line 197.
-Package epstopdf Info: Output file is already uptodate.
-File: elsevier-logo-3p-eps-converted-to.pdf Graphic file (type pdf)
-<use elsevier-logo-3p-eps-converted-to.pdf>
-Package pdftex.def Info: elsevier-logo-3p-eps-converted-to.pdf  used on input l
-ine 197.
-(pdftex.def)             Requested size: 54.20236pt x 60.22484pt.
-File: SDlogo-3p.pdf Graphic file (type pdf)
-<use SDlogo-3p.pdf>
-Package pdftex.def Info: SDlogo-3p.pdf  used on input line 197.
-(pdftex.def)             Requested size: 169.83408pt x 33.96681pt.
-
-Underfull \hbox (badness 10000) has occurred while \output is active
-
- []
-
-
-Overfull \vbox (50.22484pt too high) has occurred while \output is active []
-
-
-[1{C:/Users/vidal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vi
-dal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
- <./elsevier-logo-3p-eps-converted-to.pdf> <./SDlogo-3p.pdf>]
-Overfull \hbox (8.40897pt too wide) in paragraph at lines 205--206
-[]\T1/txr/m/n/10 A hi-pó-tese (H3) pos-tula que: (a) a ver-são adap-tada (WOCAT
--SLM-QBR) atin-girá IVC $\OMS/txsy/m/n/10 ^^U$ \T1/txr/m/n/10 0,80, kappa de Fl
-eiss $\OMS/txsy/m/n/10 ^^U$ \T1/txr/m/n/10 0,70
- []
-
-[2] [3]
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 250.
-
-Underfull \hbox (badness 1888) in paragraph at lines 250--250
-[]\T1/txr/bx/n/9 Seções WO-CAT de ori-
- []
-
-
-Underfull \hbox (badness 1824) in paragraph at lines 252--252
-\T1/txr/m/n/9 ci-o-nal e Mi-gra-
- []
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 252--253
-[]\T1/txr/m/n/9 Proporção de jo-vens pra-ti-can-tes,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-[]\T1/txr/m/n/9 Complexidade
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-\T1/txr/m/n/9 e Sin-gu-la-ri-dade
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 254--255
-[]\T1/txr/m/n/9 Agrobiodiversidade (Shan-non $\OML/txmi/m/it/9 H[]$\T1/txr/m/n/
-9 ,
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 256--257
-[]\T1/txr/m/n/9 Número de sa-be-res com re-gis-tro
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]\T1/txr/m/n/9 Vulnerabilidade
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]\T1/txr/m/n/9 Ÿ5.6 Ca-rac-te-rís-ti-cas dos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
-[]\T1/txr/m/n/9 Mecanismos for-mais de pro-te-
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 258--259
-\T1/txr/m/n/9 IPHAN), exis-tên-cia de pro-to-colo
- []
-
-
-Underfull \hbox (badness 7468) in paragraph at lines 258--259
-\T1/txr/m/n/9 co-mu-ni-tá-rio, ti-tu-la-ção ter-ri-to-rial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
-[]\T1/txr/m/n/9 Organização
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 260--260
-\T1/txr/m/n/9 So-cial e Go-ver-
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 260--260
-[]\T1/txr/m/n/9 Ÿ5.9 In-fra-es-tru-tura; Ÿ6.1
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
-\T1/txr/m/n/9 Ins-ti-tu-i-ções co-mu-ni-tá-rias;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-[]\T1/txr/m/n/9 Vitalidade Lin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-[]\T1/txr/m/n/9 Proporção de fa-lan-tes de lín-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-\T1/txr/m/n/9 gua/dialeto lo-cal, no-men-cla-tura
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-\T1/txr/m/n/9 et-no-bo-tâ-nica pre-ser-vada, di-ver-
- []
-
-
-Underfull \hbox (badness 3536) in paragraph at lines 262--263
-\T1/txr/m/n/9 si-dade ter-mi-no-ló-gica de ma-nejo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[]\T1/txr/m/n/9 Integração ao
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--266
-[]\T1/txr/m/n/9 Exposição Cli-
- []
-
-[4] [5]
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 317.
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <7> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 327.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 382.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 382.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 382.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 392.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 392.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 392.
-
-[6] [7] [8] [9]
-Overfull \hbox (12.60898pt too wide) in paragraph at lines 487--488
-[]\T1/txr/m/n/10 O ma-pe-a-mento de la-cu-nas cul-tu-rais de-verá iden-ti-fi-ca
-r di-men-sões não con-tem-pla-das pelo WO-CAT ori-gi-nal, esperando-
- []
-
-[10] (artigo3-elsevier_V1.bbl
-Underfull \hbox (badness 1057) in paragraph at lines 42--48
-[]\T1/txr/m/n/8 Barney, J., 1991.  Firm re-sour-ces and sus-tai-ned com-pe-ti-t
-ive ad-van-tage.  Jour-nal of Ma-na-ge-ment 17, 99--120.  doi:[]$\T1/cmtt/m/n/8
- 10 . 1177 /
- []
-
-[11] [12] [13]) (appendix-wocat.tex [14]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
@@ -1515,18 +1274,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-[15]
-pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.145 ...on{Tipos de uso da terra e subcategorias}
-                                                  
+[2]
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 149.
+
 Underfull \hbox (badness 10000) in paragraph at lines 172--172
 []$\U/msa/m/n/9 ^^C$ \T1/txr/m/n/9 As-sen-ta-men-
  []
 
-[16]
+[3]
 Underfull \hbox (badness 2384) in paragraph at lines 234--235
 \T1/txr/m/n/9 (associadas a cul-ti-vos
  []
@@ -1591,29 +1347,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--277
 \T1/txr/m/n/9 M3: Dis-po-si-ção con-forme
  []
 
-[17] [18] [19]
+[4] [5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
-[20] [21]
+[7] [8]
 Overfull \hbox (13.75017pt too wide) in paragraph at lines 499--510
-\T1/txr/m/it/10 Mu-dan-ças cli-má-ti-cas e re-du-ção de risco de de-sas-tres: \
-T1/txr/m/n/10 im-pac-tos de en-chen-tes, des-li-za-men-tos, se-cas, ci-clo-nes/
-tempestades,
+\T1/txr/m/it/10 Mu-dan-ças cli-má-ti-cas e re-du-ção de risco de de-sas-tres: \T1/txr/m/n/10 im-pac-tos de en-chen-tes, des-li-za-men-tos, se-cas, ci-clo-nes/tempestades,
  []
 
-[22] [23]
+[9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
-[24]
+
 Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 636--640
 
  []
@@ -1623,12 +1377,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
-[25]
+
 Underfull \hbox (badness 10000) in paragraph at lines 674--675
 
  []
 
-
+[12]
 Underfull \hbox (badness 1953) in paragraph at lines 707--707
 []\T1/txr/bx/n/9 Características (agri-
  []
@@ -1638,25 +1392,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 725--726
 
  []
 
-[26]
+
 Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
-
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 799--800
 
  []
 
-[27]
+
 Underfull \hbox (badness 10000) in paragraph at lines 812--812
 []\T1/txr/m/n/9 Título de pro-pri-e-dade co-le-tiva (IN-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 834--835
-[]$\OMS/txsy/m/n/9 ^^M$ \T1/txr/m/n/9 Não  $\OMS/txsy/m/n/9 ^^M$ \T1/txr/m/n/9 
-Em pro-cesso  $\OMS/txsy/m/n/9 ^^M$ \T1/txr/m/n/9 Sim (ór-gão:
+[]$\OMS/txsy/m/n/9 ^^M$ \T1/txr/m/n/9 Não  $\OMS/txsy/m/n/9 ^^M$ \T1/txr/m/n/9 Em pro-cesso  $\OMS/txsy/m/n/9 ^^M$ \T1/txr/m/n/9 Sim (ór-gão:
  []
 
 
@@ -1664,17 +1417,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 836--836
 []\T1/txr/m/n/9 Registro de cul-ti-var tra-di-ci-o-nal
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 848--852
 
  []
 
-[28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 869--870
 
  []
@@ -1694,39 +1447,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 882--886
 
  []
 
-[29]) [30] (artigo3-elsevier_V1.aux)
+)
+
+Package natbib Warning: There were undefined citations.
+
+[16] [17] (artigo3-elsevier_V1.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
  ***********
 Package rerunfilecheck Info: File `artigo3-elsevier_V1.out' has not changed.
-(rerunfilecheck)             Checksum: 282E234A3E1DD796BB80D3CCDF010979;8100.
+(rerunfilecheck)             Checksum: 2FBC1DA5B2B4E3BDE219D090D0EBA176;243.
  ) 
 Here is how much of TeX's memory you used:
- 26194 strings out of 467871
- 482214 string characters out of 5418376
- 906468 words of memory out of 5000000
- 54329 multiletter control sequences out of 15000+600000
- 737115 words of font info for 247 fonts, out of 8000000 for 9000
+ 25255 strings out of 467870
+ 465734 string characters out of 5418354
+ 878610 words of memory out of 5000000
+ 53569 multiletter control sequences out of 15000+600000
+ 673629 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,94p,2220b,926s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vidal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1000.pk> <C:\Users\vidal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ectt0800.pk><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/symbols/msam10.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/txfonts/rtcxr.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/txfonts/rtxb.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/vidal/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/vidal/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/vidal/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/vidal/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vidal/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vidal/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/vidal/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on artigo3-elsevier_V1.pdf (30 pages, 421631 bytes).
+ 84i,11n,94p,1911b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtcxr.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxb.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on artigo3-elsevier_V1.pdf (17 pages, 150269 bytes).
 PDF statistics:
- 871 PDF objects out of 1000 (max. 8388607)
- 240 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+ has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `artigo3-elsevier_V1.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  2FBC1DA5B2B4E3BDE219D090D0EBA176;243.
+ ) 
+Here is how much of TeX's memory you used:
+ 25255 strings out of 467870
+ 465443 string characters out of 5418354
+ 877369 words of memory out of 5000000
+ 53569 multiletter control sequences out of 15000+600000
+ 676678 words of font info for 127 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,11n,94p,1808b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/txfonts/rtcxr.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/txfonts/rtxb.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/txfonts/rtxi.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/txfonts/rtxmi.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/txfonts/rtxr.pfb><C:/Users/vidal/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/txfonts/txsy.pfb><C:/Users/vidal/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/vidal/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/vidal/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on artigo3-elsevier_V1.pdf (17 pages, 146388 bytes).
+PDF statistics:
+ 235 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 {
-  "title": "Adaptação transcultural do WOCAT-SLM e elicitação Delphi de variáveis de vulnerabilidade biocultural em comunidades quilombolas do semiárido brasileiro",
-  "description": "Dados, código-fonte e manuscrito do artigo que integra adaptação transcultural do questionário WOCAT-SLM via protocolo ITC e elicitação Delphi estruturada de variáveis de vulnerabilidade biocultural (V1–V8) em Comunidades Quilombolas do Território de Identidade Semiárido Nordeste II (Bahia), produzindo a versão WOCAT-SLM-QBR e conjunto validado de variáveis linguísticas para construção do Índice de Salvaguarda Biocultural (ISB).",
+  "title": "Adaptação transcultural do questionário WOCAT com bloco suplementar para documentar saberes agrícolas tradicionais em comunidades quilombolas",
+  "description": "Dados, código-fonte e manuscrito do artigo que produz o protocolo de adaptação transcultural do módulo de Tecnologias do questionário WOCAT-SLM para comunidades quilombolas do semiárido brasileiro. O protocolo combina a sequência de sete etapas de equivalência item a item, da tradução direta à validação de conteúdo por comitê de especialistas, com a especificação de um bloco suplementar derivado de evidência territorial. A auditoria dos vinte e dois códigos do guia de codificação contra os quarenta e oito itens do núcleo do instrumento resultou na seção 9 do WOCAT-SLM-QBR, composta por nove módulos que registram transmissão intergeracional e ritual, governança comunitária, agrobiodiversidade e etnotaxonomia, singularidade territorial, déficit documental, proteção jurídica e propriedade intelectual, vitalidade linguística, integração ao mercado e exposição climática.",
   "upload_type": "publication",
   "publication_type": "article",
   "creators": [
@@ -17,13 +17,15 @@
   ],
   "keywords": [
     "Cross-cultural adaptation",
-    "Delphi method",
+    "Content validity",
+    "Conceptual equivalence",
     "WOCAT-SLM",
+    "WOCAT-SLM-QBR",
+    "Delphi method",
     "Biocultural vulnerability",
     "Sustainable land management",
     "Quilombola communities",
-    "Intellectual property",
-    "Índice de Salvaguarda Biocultural"
+    "Intellectual property"
   ],
   "license": {
     "id": "CC-BY-4.0"

@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{90}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -51,6 +51,15 @@
   \bibinfo{pages}{304--321}.
 \newblock \DOIprefix\doi{10.1108/RMJ-12-2020-0042}.
 %Type = Article
+\bibitem[{Barrera-Bassols and Zinck(2003)}]{BarreraBassols2003}
+\bibinfo{author}{Barrera-Bassols, N.}, \bibinfo{author}{Zinck, J.A.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Ethnopedology: A worldwide view on the soil knowledge
+  of local people}.
+\newblock \bibinfo{journal}{Geoderma} \bibinfo{volume}{111},
+  \bibinfo{pages}{171--195}.
+\newblock \DOIprefix\doi{10.1016/S0016-7061(02)00263-X}.
+%Type = Article
 \bibitem[{Bavikatte and Robinson(2011)}]{BavikatteRobinson2011}
 \bibinfo{author}{Bavikatte, K.S.}, \bibinfo{author}{Robinson, D.F.},
   \bibinfo{year}{2011}.
@@ -102,6 +111,12 @@
   \bibinfo{address}{New York}.
 \newblock \bibinfo{note}{Obra seminal sobre o complexo
   Conhecimento-Prática-Crença (K-P-B)}.
+%Type = Book
+\bibitem[{Bordenave(1983)}]{Bordenave1983}
+\bibinfo{author}{Bordenave, J.E.D.}, \bibinfo{year}{1983}.
+\newblock \bibinfo{title}{O que {\'e} Comunica{\c c}{\~a}o Rural}.
+\newblock Cole{\c c}{\~a}o Primeiros Passos, \bibinfo{publisher}{Brasiliense},
+  \bibinfo{address}{S{\~a}o Paulo}.
 %Type = Article
 \bibitem[{Borsa and Sousa(2018)}]{Borsa2018}
 \bibinfo{author}{Borsa, J.C.}, \bibinfo{author}{Sousa, D.A.D.},
@@ -125,6 +140,13 @@
   Contemporary World}.
 \newblock \bibinfo{publisher}{Yale University Press}, \bibinfo{address}{New
   Haven}.
+%Type = Book
+\bibitem[{Caporal and Costabeber(2004)}]{CaporalCostabeber2004}
+\bibinfo{author}{Caporal, F.R.}, \bibinfo{author}{Costabeber, J.A.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Agroecologia e Extens{\~a}o Rural: contribui{\c
+  c}{\~o}es para a promo{\c c}{\~a}o do desenvolvimento rural sustent{\'a}vel}.
+\newblock \bibinfo{publisher}{MDA/SAF/DATER}, \bibinfo{address}{Bras{\'i}lia}.
 %Type = Article
 \bibitem[{Cassepp-Borges et~al.(2010)Cassepp-Borges, Balbinotti and
   Nunes}]{Cassepp-Borges2010}
@@ -135,6 +157,31 @@
 \newblock \bibinfo{journal}{Psicologia: Reflexão e Crítica}
   \bibinfo{volume}{23}, \bibinfo{pages}{221--228}.
 \newblock \DOIprefix\doi{10.1590/S0102-79722010000200003}.
+%Type = Article
+\bibitem[{Chambers(1994a)}]{Chambers1994origins}
+\bibinfo{author}{Chambers, R.}, \bibinfo{year}{1994}a.
+\newblock \bibinfo{title}{The origins and practice of participatory rural
+  appraisal}.
+\newblock \bibinfo{journal}{World Development} \bibinfo{volume}{22},
+  \bibinfo{pages}{953--969}.
+\newblock \DOIprefix\doi{10.1016/0305-750X(94)90141-4}.
+%Type = Article
+\bibitem[{Chambers(1994b)}]{Chambers1994analysis}
+\bibinfo{author}{Chambers, R.}, \bibinfo{year}{1994}b.
+\newblock \bibinfo{title}{Participatory rural appraisal (pra): Analysis of
+  experience}.
+\newblock \bibinfo{journal}{World Development} \bibinfo{volume}{22},
+  \bibinfo{pages}{1253--1268}.
+\newblock \DOIprefix\doi{10.1016/0305-750X(94)90003-6}.
+%Type = Article
+\bibitem[{Chambers(2006)}]{Chambers2006}
+\bibinfo{author}{Chambers, R.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Participatory mapping and geographic information
+  systems: Whose map? who is empowered and who disempowered? who gains and who
+  loses?}
+\newblock \bibinfo{journal}{The Electronic Journal of Information Systems in
+  Developing Countries} \bibinfo{volume}{25}, \bibinfo{pages}{1--11}.
+\newblock \DOIprefix\doi{10.1002/j.1681-4835.2006.tb00163.x}.
 %Type = Book
 \bibitem[{Corbin and Strauss(2015)}]{CorbinStrauss2015}
 \bibinfo{author}{Corbin, J.}, \bibinfo{author}{Strauss, A.},
@@ -143,6 +190,14 @@
   Procedures for Developing Grounded Theory}.
 \newblock \bibinfo{edition}{4} ed., \bibinfo{publisher}{Sage},
   \bibinfo{address}{Thousand Oaks}.
+%Type = Article
+\bibitem[{Cornwall and Jewkes(1995)}]{Cornwall1995}
+\bibinfo{author}{Cornwall, A.}, \bibinfo{author}{Jewkes, R.},
+  \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{What is participatory research?}
+\newblock \bibinfo{journal}{Social Science \& Medicine} \bibinfo{volume}{41},
+  \bibinfo{pages}{1667--1676}.
+\newblock \DOIprefix\doi{10.1016/0277-9536(95)00127-S}.
 %Type = Article
 \bibitem[{Costanza et~al.(1997)Costanza, d'Arge, de~Groot, Farber, Grasso,
   Hannon, Limburg, Naeem, O'Neill, Paruelo, Raskin, Sutton and van~den
@@ -168,6 +223,13 @@
 \newblock \bibinfo{journal}{Journal of International Economic Law}
   \bibinfo{volume}{7}, \bibinfo{pages}{371--399}.
 \newblock \DOIprefix\doi{10.1093/jiel/7.2.371}.
+%Type = Book
+\bibitem[{Cunha~Faria and Ferreira~Neto(2006)}]{CunhaFaria2006}
+\bibinfo{author}{Cunha~Faria, A.A.}, \bibinfo{author}{Ferreira~Neto, P.S.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Ferramentas de Di{\'a}logo: qualificando o uso das
+  t{\'e}cnicas de DRP --- diagn{\'o}stico rural participativo}.
+\newblock \bibinfo{publisher}{MMA; IEB}, \bibinfo{address}{Bras{\'i}lia}.
 %Type = Article
 \bibitem[{Dajani et~al.(1979)Dajani, Sincoff and Talley}]{Dajani1979}
 \bibinfo{author}{Dajani, J.S.}, \bibinfo{author}{Sincoff, M.Z.},
@@ -197,6 +259,14 @@
 \newblock \bibinfo{journal}{Journal of Clinical Epidemiology}
   \bibinfo{volume}{67}, \bibinfo{pages}{401--409}.
 \newblock \DOIprefix\doi{10.1016/j.jclinepi.2013.12.002}.
+%Type = Incollection
+\bibitem[{Diegues(2000)}]{Diegues2000}
+\bibinfo{author}{Diegues, A.C.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Etnoconserva{\c c}{\~a}o da natureza: enfoques
+  alternativos}, in: \bibinfo{editor}{Diegues, A.C.} (Ed.),
+  \bibinfo{booktitle}{Etnoconserva{\c c}{\~a}o: novos rumos para a prote{\c
+  c}{\~a}o da natureza nos tr{\'o}picos}. \bibinfo{publisher}{Hucitec;
+  NUPAUB-USP}, \bibinfo{address}{S{\~a}o Paulo}, pp. \bibinfo{pages}{1--46}.
 %Type = Article
 \bibitem[{Dossou et~al.(2022)Dossou, Tour\'{e} and Olawoye}]{Dossou2022}
 \bibinfo{author}{Dossou, J.}, \bibinfo{author}{Tour\'{e}, S.F.},
@@ -250,6 +320,11 @@
 \newblock \bibinfo{journal}{Ecology and Society} \bibinfo{volume}{9},
   \bibinfo{pages}{7}.
 %Type = Book
+\bibitem[{Freire(1971)}]{Freire1971}
+\bibinfo{author}{Freire, P.}, \bibinfo{year}{1971}.
+\newblock \bibinfo{title}{Extension or Communication?}
+\newblock \bibinfo{publisher}{Seabury Press}, \bibinfo{address}{New York}.
+%Type = Book
 \bibitem[{Frey and Association(2018)}]{Association2018}
 \bibinfo{author}{Frey, B.B.}, \bibinfo{author}{Association, A.E.R.},
   \bibinfo{year}{2018}.
@@ -259,6 +334,13 @@
 \newblock \URLprefix
   \url{https://scholar.google.com.br/scholar?hl=pt-BR&as_sdt=0%2C5&q=Standards+for+Educational+and+Psychological+Testing&btnG=},
   \DOIprefix\doi{10.4135/9781506326139.n662}.
+%Type = Book
+\bibitem[{Geilfus(2008)}]{Geilfus2008}
+\bibinfo{author}{Geilfus, F.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{80 tools for participatory development: appraisal,
+  planning, follow-up and evaluation}.
+\newblock \bibinfo{publisher}{Inter-American Institute for Cooperation on
+  Agriculture (IICA)}, \bibinfo{address}{San Jos{\'e}, Costa Rica}.
 %Type = Article
 \bibitem[{Gioia et~al.(2013)Gioia, Corley and Hamilton}]{Gioia2013}
 \bibinfo{author}{Gioia, D.A.}, \bibinfo{author}{Corley, K.G.},
@@ -343,6 +425,14 @@
 \newblock \bibinfo{type}{Technical Report}. International Test Commission.
 \newblock \URLprefix
   \url{https://www.intestcom.org/files/guideline_test_adaptation_2ed.pdf}.
+%Type = Book
+\bibitem[{Kumar(2002)}]{Kumar2002}
+\bibinfo{author}{Kumar, S.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Methods for Community Participation: A Complete Guide
+  for Practitioners}.
+\newblock \bibinfo{publisher}{Practical Action Publishing},
+  \bibinfo{address}{London}.
+\newblock \DOIprefix\doi{10.3362/9781780440279}.
 %Type = Article
 \bibitem[{Landis and Koch(1977)}]{Landis1977}
 \bibinfo{author}{Landis, J.R.}, \bibinfo{author}{Koch, G.G.},
@@ -390,6 +480,15 @@
 \newblock \bibinfo{publisher}{Smithsonian Institution Press},
   \bibinfo{address}{Washington, DC}.
 %Type = Article
+\bibitem[{Mahiri(1998)}]{Mahiri1998}
+\bibinfo{author}{Mahiri, I.}, \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{The environmental knowledge frontier: Transects with
+  experts and villagers}.
+\newblock \bibinfo{journal}{Journal of International Development}
+  \bibinfo{volume}{10}, \bibinfo{pages}{527--537}.
+\newblock
+  \DOIprefix\doi{10.1002/(SICI)1099-1328(199806)10:4<527::AID-JID543>3.0.CO;2-S}.
+%Type = Article
 \bibitem[{Maina(2012)}]{Maina2012}
 \bibinfo{author}{Maina, C.K.}, \bibinfo{year}{2012}.
 \newblock \bibinfo{title}{Traditional knowledge management and preservation:
@@ -403,6 +502,13 @@
 \newblock \bibinfo{title}{Atlas of the World's Languages in Danger}.
 \newblock \bibinfo{edition}{3rd} ed., \bibinfo{publisher}{UNESCO Publishing},
   \bibinfo{address}{Paris}.
+%Type = Book
+\bibitem[{Narayanasamy(2009)}]{Narayanasamy2009}
+\bibinfo{author}{Narayanasamy, N.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Participatory Rural Appraisal: Principles, Methods
+  and Application}.
+\newblock \bibinfo{publisher}{SAGE Publications}, \bibinfo{address}{New Delhi}.
+\newblock \DOIprefix\doi{10.4135/9788132108382}.
 %Type = Article
 \bibitem[{Nemog{\'a} et~al.(2022)Nemog{\'a}, Appasamy et~al.}]{Nemoga2022}
 \bibinfo{author}{Nemog{\'a}, G.R.}, \bibinfo{author}{Appasamy, A.}, et~al.,
@@ -420,6 +526,13 @@
   indicator sets}.
 \newblock \bibinfo{journal}{Ecological Indicators} \bibinfo{volume}{8},
   \bibinfo{pages}{14--25}.
+%Type = Book
+\bibitem[{Oakley and Garforth(1985)}]{Oakley1985}
+\bibinfo{author}{Oakley, P.}, \bibinfo{author}{Garforth, C.},
+  \bibinfo{year}{1985}.
+\newblock \bibinfo{title}{Guide to Extension Training}.
+\newblock FAO Training Series, \bibinfo{publisher}{Food and Agriculture
+  Organization of the United Nations}, \bibinfo{address}{Rome}.
 %Type = Article
 \bibitem[{O'Brien et~al.(2014)O'Brien, Harris, Beckman, Reed and
   Cook}]{OBrien2014}
@@ -574,15 +687,6 @@
   \bibinfo{volume}{23}, \bibinfo{pages}{308--324}.
 \newblock \DOIprefix\doi{10.1002/ldr.1065}.
 %Type = Article
-\bibitem[{Sellbom and Tellegen(2019)}]{Sellbom2019FactorRecommendations}
-\bibinfo{author}{Sellbom, M.}, \bibinfo{author}{Tellegen, A.},
-  \bibinfo{year}{2019}.
-\newblock \bibinfo{title}{Factor analysis in psychological assessment research:
-  common pitfalls and recommendations}.
-\newblock \bibinfo{journal}{Psychological Assessment} \bibinfo{volume}{31},
-  \bibinfo{pages}{1428--1441}.
-\newblock \DOIprefix\doi{10.1037/pas0000623}.
-%Type = Article
 \bibitem[{de~Sousa~T.B.(2024)}]{deSousa2024}
 \bibinfo{author}{de~Sousa~T.B.}, \bibinfo{year}{2024}.
 \newblock \bibinfo{title}{Strategies for managing agrobiodiversity by peasant
@@ -622,6 +726,19 @@
   las Sabidurías Tradicionales}.
 \newblock \bibinfo{publisher}{Icaria Editorial}, \bibinfo{address}{Barcelona}.
 \newblock \bibinfo{note}{Conceito de Memória Biocultural}.
+%Type = Book
+\bibitem[{Vansina(1985)}]{Vansina1985}
+\bibinfo{author}{Vansina, J.}, \bibinfo{year}{1985}.
+\newblock \bibinfo{title}{Oral Tradition as History}.
+\newblock \bibinfo{publisher}{University of Wisconsin Press},
+  \bibinfo{address}{Madison}.
+%Type = Book
+\bibitem[{Verdejo(2006)}]{Verdejo2006}
+\bibinfo{author}{Verdejo, M.E.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Diagn{\'o}stico Rural Participativo: guia pr{\'a}tico
+  DRP}.
+\newblock \bibinfo{publisher}{MDA/Secretaria da Agricultura Familiar},
+  \bibinfo{address}{Bras{\'i}lia}.
 %Type = Book
 \bibitem[{Willis(2005)}]{Willis2005}
 \bibinfo{author}{Willis, G.B.}, \bibinfo{year}{2005}.

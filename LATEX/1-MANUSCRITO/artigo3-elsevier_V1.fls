@@ -1,6 +1,6 @@
-PWD c:\Users\vidal\OneDrive\Documentos\13 - CLONEGIT\ORIENTACOES_CATUXE\artigo_3_catuxe\LATEX\1-MANUSCRITO
+PWD C:\Users\vidal\OneDrive\Documentos\13 - CLONEGIT\ORIENTACOES_CATUXE\artigo_3_catuxe\LATEX\1-MANUSCRITO
 INPUT C:\Users\vidal\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\vidal\OneDrive\Documentos\13 - CLONEGIT\ORIENTACOES_CATUXE\artigo_3_catuxe\LATEX\1-MANUSCRITO\artigo3-elsevier_V1.tex
+INPUT artigo3-elsevier_V1.tex
 OUTPUT artigo3-elsevier_V1.log
 INPUT .\elsarticle.cls
 INPUT elsarticle.cls
